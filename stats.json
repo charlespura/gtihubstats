@@ -28,5 +28,23 @@
       "from": "2026-03-15",
       "to": "2026-04-12"
     }
-  }
+  },
+  "milestones": {
+    "current": 29,
+    "next": 30,
+    "previous": 14,
+    "progress": 0.9375,
+    "milestones": [7, 14, 30, 60, 90, 100, 180, 365, 500, 730, 1000]
+  },
+  "highlights": {
+    "best_day": { "date": null, "count": 0 },
+    "best_week": { "from": null, "to": null, "total": 0 }
+  },
+  "heatmap": {
+    "weeks": 16,
+    "max": 0,
+    "days": []
+  },
+  "languages": [],
+  "repos": { "top": [], "recent": [] }
 }
