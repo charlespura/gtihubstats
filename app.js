@@ -48,7 +48,10 @@ async function load() {
 
   // Replace these with your actual GitHub Pages URL after you publish it:
   // https://<username>.github.io/<repo>/stats.svg
-  const repoPagesBase = data?.pages?.base_url ?? "https://<username>.github.io/<repo>";
+  const configuredBase = data?.pages?.base_url ?? "https://<username>.github.io/<repo>";
+  const looksPlaceholder = String(configuredBase).includes("<username>") || String(configuredBase).includes("<repo>");
+  const autoBase = new URL(".", window.location.href).toString().replace(/\/$/, "");
+  const repoPagesBase = looksPlaceholder ? autoBase : String(configuredBase).replace(/\/$/, "");
   const snippet = `![GitHub Stats](${repoPagesBase}/stats.svg)\n\n[Live dashboard](${repoPagesBase}/)`;
   $("readmeSnippet").textContent = snippet;
 }
@@ -57,4 +60,3 @@ load().catch((err) => {
   console.error(err);
   $("subtitle").textContent = "Could not load stats. Make sure stats.json exists in this repo.";
 });
-

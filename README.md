@@ -7,7 +7,7 @@ GitHub README files **cannot run JavaScript** (and iframes/scripts are blocked),
 ## Setup
 
 1. **Do not expose tokens in HTML/JS**
-   - If you pasted a token anywhere public, **revoke it now** in GitHub → Settings → Developer settings → Personal access tokens.
+   - If you pasted a token anywhere (even briefly), **revoke it now** in GitHub → Settings → Developer settings → Personal access tokens.
 
 2. Create a PAT (classic)
    - Scopes (minimum): `read:user` (optional: `public_repo`)
@@ -47,4 +47,3 @@ And link the dashboard:
 ## Local preview
 
 Open `index.html` in a browser (or serve the folder with any static server). The UI reads `stats.json`.
-
