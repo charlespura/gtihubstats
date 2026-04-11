@@ -129,6 +129,59 @@ function computeStreaks(days) {
   return { current, longest: best };
 }
 
+function computeBestDays(days) {
+  const normalized = Array.isArray(days)
+    ? days
+        .map((d) => ({ date: d.date, count: Number(d.count) || 0 }))
+        .sort((a, b) => a.date.localeCompare(b.date))
+    : [];
+
+  let bestDay = { date: null, count: 0 };
+  for (const d of normalized) {
+    if (d.count > bestDay.count) bestDay = { date: d.date, count: d.count };
+  }
+
+  // Best 7-day window (by total contributions). Uses consecutive days list.
+  let bestWeek = { from: null, to: null, total: 0 };
+  if (normalized.length >= 7) {
+    let sum = 0;
+    for (let i = 0; i < 7; i++) sum += normalized[i].count;
+    bestWeek = { from: normalized[0].date, to: normalized[6].date, total: sum };
+
+    for (let i = 7; i < normalized.length; i++) {
+      sum += normalized[i].count - normalized[i - 7].count;
+      if (sum > bestWeek.total) {
+        bestWeek = { from: normalized[i - 6].date, to: normalized[i].date, total: sum };
+      }
+    }
+  }
+
+  return { best_day: bestDay, best_week: bestWeek };
+}
+
+function computeMilestones(currentStreakDays) {
+  const milestones = [7, 14, 30, 60, 90, 100, 180, 365, 500, 730, 1000];
+  const current = Number(currentStreakDays) || 0;
+  const next = milestones.find((m) => m > current) ?? null;
+  const prev = [...milestones].reverse().find((m) => m <= current) ?? 0;
+  const span = next ? next - prev : 0;
+  const into = current - prev;
+  const progress = span > 0 ? Math.max(0, Math.min(1, into / span)) : 1;
+  return { current, next, previous: prev, progress, milestones };
+}
+
+function computeHeatmap(days, weeks = 16) {
+  const normalized = Array.isArray(days)
+    ? days
+        .map((d) => ({ date: d.date, count: Number(d.count) || 0 }))
+        .sort((a, b) => a.date.localeCompare(b.date))
+    : [];
+  const count = weeks * 7;
+  const slice = normalized.slice(-count);
+  const max = slice.reduce((m, d) => Math.max(m, d.count), 0);
+  return { weeks, max, days: slice };
+}
+
 function esc(s) {
   return String(s ?? "")
     .replaceAll("&", "&amp;")
@@ -149,6 +202,8 @@ function renderSvg(stats) {
   const longest = stats.streaks.longest.days;
   const range = `${stats.range.from} - ${stats.range.to}`;
   const updated = new Date(stats.generated_at).toISOString().slice(0, 10);
+  const nextMilestone = stats?.milestones?.next ?? null;
+  const milestoneText = nextMilestone ? `Next: ${nextMilestone} days` : "Milestone: —";
 
   // Keep it GitHub-dark friendly, and readable in README.
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -158,19 +213,25 @@ function renderSvg(stats) {
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#0a1224"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f81f7"/>
+      <stop offset="55%" stop-color="#ff7b72"/>
+      <stop offset="100%" stop-color="#ffa657"/>
     </linearGradient>
   </defs>
   <rect x="0.5" y="0.5" width="719" height="209" rx="16" fill="url(#bg)" stroke="#30363d"/>
-  <text x="24" y="44" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="20" font-weight="700">${esc(
+  <rect x="24" y="20" width="3" height="46" rx="2" fill="url(#accent)"/>
+  <text x="36" y="44" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="20" font-weight="750">${esc(
     name
   )}</text>
-  <text x="24" y="68" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">@${esc(
+  <text x="36" y="68" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">@${esc(
     login
   )}</text>
 
   <text x="24" y="102" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Total Contributions</text>
-  <text x="24" y="132" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="28" font-weight="800">${esc(
+  <text x="24" y="132" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="30" font-weight="850">${esc(
     total
   )}</text>
   <text x="24" y="156" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">${esc(
@@ -199,6 +260,9 @@ function renderSvg(stats) {
     <text x="0" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="750">${esc(
       current
     )} days</text>
+    <text x="0" y="48" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">${esc(
+      milestoneText
+    )}</text>
 
     <text x="180" y="0" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Longest Streak</text>
     <text x="180" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="750">${esc(
@@ -237,6 +301,23 @@ query($login: String!) {
     login
     name
     repositories(privacy: PUBLIC) { totalCount }
+    allRepos: repositories(
+      first: 100
+      privacy: PUBLIC
+      ownerAffiliations: OWNER
+      orderBy: { field: PUSHED_AT, direction: DESC }
+    ) {
+      nodes {
+        name
+        nameWithOwner
+        url
+        description
+        isFork
+        pushedAt
+        stargazerCount
+        primaryLanguage { name }
+      }
+    }
     followers { totalCount }
     following { totalCount }
     contributionsCollection {
@@ -263,6 +344,44 @@ const from = flatDays[0]?.date ?? null;
 const to = flatDays[flatDays.length - 1]?.date ?? null;
 
 const streaks = computeStreaks(flatDays);
+const best = computeBestDays(flatDays);
+const milestones = computeMilestones(streaks.current.days);
+const heatmap = computeHeatmap(flatDays, 16);
+
+const repoNodes = user.allRepos?.nodes ?? [];
+const ownedNonForks = repoNodes.filter((r) => r && !r.isFork);
+
+const languageCounts = new Map();
+for (const r of ownedNonForks) {
+  const lang = r.primaryLanguage?.name ?? null;
+  if (!lang) continue;
+  languageCounts.set(lang, (languageCounts.get(lang) ?? 0) + 1);
+}
+
+const topLanguages = [...languageCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 8)
+  .map(([name, repos]) => ({ name, repos }));
+
+const topRepos = [...ownedNonForks]
+  .sort((a, b) => (b.stargazerCount ?? 0) - (a.stargazerCount ?? 0))
+  .slice(0, 8)
+  .map((r) => ({
+    name: r.name,
+    url: r.url,
+    stars: r.stargazerCount ?? 0,
+    pushed_at: r.pushedAt,
+    description: r.description ?? ""
+  }));
+
+const recentRepos = [...ownedNonForks]
+  .sort((a, b) => String(b.pushedAt ?? "").localeCompare(String(a.pushedAt ?? "")))
+  .slice(0, 6)
+  .map((r) => ({
+    name: r.name,
+    url: r.url,
+    pushed_at: r.pushedAt
+  }));
 
 const stats = {
   generated_at: new Date().toISOString(),
@@ -278,7 +397,15 @@ const stats = {
   contributions: {
     total: user.contributionsCollection.contributionCalendar.totalContributions
   },
-  streaks
+  streaks,
+  milestones,
+  highlights: best,
+  heatmap,
+  languages: topLanguages,
+  repos: {
+    top: topRepos,
+    recent: recentRepos
+  }
 };
 
 await writeFile("stats.json", JSON.stringify(stats, null, 2) + "\n", "utf8");
