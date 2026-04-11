@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-04-12T00:00:00.000Z",
+  "pages": {
+    "base_url": "https://<username>.github.io/<repo>"
+  },
+  "user": {
+    "login": "charlespura",
+    "name": "Charles Pura",
+    "repos": 0,
+    "followers": 0,
+    "following": 0
+  },
+  "range": {
+    "from": "2025-04-13",
+    "to": "2026-04-12"
+  },
+  "contributions": {
+    "total": 0
+  },
+  "streaks": {
+    "current": { "days": 0, "from": null, "to": null },
+    "longest": { "days": 0, "from": null, "to": null }
+  }
+}
+
