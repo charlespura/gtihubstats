@@ -203,12 +203,16 @@ function renderSvg(stats) {
   const range = `${stats.range.from} - ${stats.range.to}`;
   const updated = new Date(stats.generated_at).toISOString().slice(0, 10);
   const nextMilestone = stats?.milestones?.next ?? null;
-  const milestoneText = nextMilestone ? `Next: ${nextMilestone} days` : "Milestone: —";
+  const milestoneText = nextMilestone ? `Next: ${nextMilestone}d` : "Milestone: —";
   const milestoneProgress =
     typeof stats?.milestones?.progress === "number"
       ? Math.max(0, Math.min(1, stats.milestones.progress))
       : 0;
   const progressWidth = Math.round(152 * milestoneProgress);
+  const ringR = 13;
+  const ringC = 2 * Math.PI * ringR;
+  const ringDash = Math.round(ringC * milestoneProgress * 100) / 100;
+  const ringGap = Math.round((ringC - ringDash) * 100) / 100;
 
   // Keep it GitHub-dark friendly, and readable in README.
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -224,6 +228,11 @@ function renderSvg(stats) {
       <stop offset="0%" stop-color="#2f81f7"/>
       <stop offset="55%" stop-color="#ff7b72"/>
       <stop offset="100%" stop-color="#ffa657"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffa657"/>
+      <stop offset="55%" stop-color="#ff7b72"/>
+      <stop offset="100%" stop-color="#2f81f7"/>
     </linearGradient>
     <linearGradient id="fire" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ffa657"/>
@@ -246,68 +255,100 @@ function renderSvg(stats) {
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
   </defs>
   <rect x="0.5" y="0.5" width="719" height="209" rx="16" fill="url(#bg)" stroke="#30363d"/>
-  <rect x="24" y="20" width="3" height="46" rx="2" fill="url(#accent)"/>
-  <text x="36" y="44" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="20" font-weight="750">${esc(
+  <g filter="url(#softShadow)">
+    <rect x="14" y="14" width="692" height="182" rx="14" fill="rgba(22,27,34,0.55)" stroke="rgba(48,54,61,0.65)"/>
+  </g>
+
+  <rect x="24" y="22" width="3" height="44" rx="2" fill="url(#accent)"/>
+  <text x="36" y="44" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="20" font-weight="780">${esc(
     name
   )}</text>
-  <text x="36" y="68" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">@${esc(
+  <text x="36" y="66" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">@${esc(
     login
   )}</text>
 
-  <text x="24" y="102" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Total Contributions</text>
-  <text x="24" y="132" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="30" font-weight="850">${esc(
+  <g transform="translate(560, 28)">
+    <rect x="0" y="0" width="136" height="26" rx="999" fill="rgba(33,38,45,0.85)" stroke="rgba(48,54,61,0.9)"/>
+    <text x="68" y="17" text-anchor="middle" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Updated ${esc(
+      updated
+    )}</text>
+  </g>
+
+  <!-- Left: Total contributions -->
+  <text x="24" y="104" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Total Contributions</text>
+  <text x="24" y="138" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="34" font-weight="900">${esc(
     total
   )}</text>
-  <text x="24" y="156" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">${esc(
-    range
-  )}</text>
+  <g transform="translate(24, 150)">
+    <rect x="0" y="0" width="230" height="24" rx="999" fill="rgba(33,38,45,0.8)" stroke="rgba(48,54,61,0.9)"/>
+    <text x="115" y="16" text-anchor="middle" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">${esc(
+      range
+    )}</text>
+  </g>
 
-  <g transform="translate(330, 92)">
-    <text x="0" y="0" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Public Repos</text>
-    <text x="0" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="750">${esc(
+  <!-- Right: small stat tiles -->
+  <g transform="translate(330, 86)">
+    <rect x="0" y="0" width="116" height="54" rx="12" fill="rgba(13,17,23,0.55)" stroke="rgba(48,54,61,0.75)"/>
+    <rect x="126" y="0" width="116" height="54" rx="12" fill="rgba(13,17,23,0.55)" stroke="rgba(48,54,61,0.75)"/>
+    <rect x="252" y="0" width="116" height="54" rx="12" fill="rgba(13,17,23,0.55)" stroke="rgba(48,54,61,0.75)"/>
+
+    <text x="14" y="20" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Repos</text>
+    <text x="14" y="40" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="780">${esc(
       repos
     )}</text>
 
-    <text x="130" y="0" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Followers</text>
-    <text x="130" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="750">${esc(
+    <text x="140" y="20" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Followers</text>
+    <text x="140" y="40" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="780">${esc(
       followers
     )}</text>
 
-    <text x="260" y="0" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Following</text>
-    <text x="260" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="750">${esc(
+    <text x="266" y="20" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Following</text>
+    <text x="266" y="40" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="780">${esc(
       following
     )}</text>
   </g>
 
-  <g transform="translate(330, 150)">
-    <text x="0" y="0" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Current Streak</text>
-    <g transform="translate(104, -12)" filter="url(#glow)">
-      <path
-        d="M10 2c1 4-1 6-3 8-2 2-3 4-2 7 1 3 4 5 7 5 4 0 7-3 7-7 0-4-3-6-5-9-1-2-2-3-1-4-2 1-3 2-3 0z"
-        fill="url(#fire)"
-      />
-      <path d="M12 10c1 2 0 3-1 4-1 1-1 2-1 3 0 2 2 3 3 3 2 0 3-2 3-4 0-2-2-3-3-6-1 1-1 1-1 0z" fill="#ffd1b3" opacity="0.55"/>
-    </g>
-    <text x="0" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="800">${esc(
+  <!-- Bottom right: streak cards -->
+  <g transform="translate(330, 148)">
+    <rect x="0" y="0" width="176" height="52" rx="12" fill="rgba(13,17,23,0.55)" stroke="rgba(48,54,61,0.75)"/>
+    <rect x="192" y="0" width="176" height="52" rx="12" fill="rgba(13,17,23,0.55)" stroke="rgba(48,54,61,0.75)"/>
+
+    <!-- Current streak with ring + fire -->
+    <text x="14" y="18" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Current Streak</text>
+    <text x="14" y="40" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="860">${esc(
       current
     )} days</text>
-    <text x="0" y="48" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">${esc(
+
+    <g transform="translate(154, 30)">
+      <circle cx="0" cy="0" r="${ringR}" fill="rgba(13,17,23,0.85)" stroke="rgba(48,54,61,0.95)" stroke-width="4"/>
+      <circle cx="0" cy="0" r="${ringR}" fill="none" stroke="url(#accentV)" stroke-width="4" stroke-linecap="round" stroke-dasharray="${esc(
+        ringDash
+      )} ${esc(ringGap)}" transform="rotate(-90)"/>
+      <g transform="translate(-10, -12)" filter="url(#glow)">
+        <path d="M10 2c1 4-1 6-3 8-2 2-3 4-2 7 1 3 4 5 7 5 4 0 7-3 7-7 0-4-3-6-5-9-1-2-2-3-1-4-2 1-3 2-3 0z" fill="url(#fire)"/>
+        <path d="M12 10c1 2 0 3-1 4-1 1-1 2-1 3 0 2 2 3 3 3 2 0 3-2 3-4 0-2-2-3-3-6-1 1-1 1-1 0z" fill="#ffd1b3" opacity="0.55"/>
+      </g>
+    </g>
+
+    <text x="14" y="50" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="10">${esc(
       milestoneText
     )}</text>
-    <rect x="0" y="58" width="152" height="8" rx="999" fill="#21262d" stroke="#30363d"/>
-    <rect x="0" y="58" width="${esc(progressWidth)}" height="8" rx="999" fill="url(#accent)"/>
 
-    <text x="180" y="0" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Longest Streak</text>
-    <text x="180" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="750">${esc(
+    <!-- Longest streak -->
+    <text x="206" y="18" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Longest Streak</text>
+    <text x="206" y="40" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="780">${esc(
       longest
     )} days</text>
-  </g>
 
-  <text x="24" y="192" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Updated ${esc(
-    updated
-  )} • Generated by GitHub Actions</text>
+    <!-- Mini milestone bar -->
+    <rect x="206" y="44" width="152" height="6" rx="999" fill="rgba(33,38,45,0.85)" stroke="rgba(48,54,61,0.9)"/>
+    <rect x="206" y="44" width="${esc(progressWidth)}" height="6" rx="999" fill="url(#accent)"/>
+  </g>
 </svg>`;
 }
 
