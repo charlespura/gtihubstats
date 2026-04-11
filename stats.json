@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-04-12T00:00:00.000Z",
   "pages": {
-    "base_url": "https://<username>.github.io/<repo>"
+    "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
@@ -11,7 +11,7 @@
     "following": 0
   },
   "range": {
-    "from": "2022-04-13",
+    "from": "2025-04-13",
     "to": "2026-04-12"
   },
   "contributions": {
@@ -22,4 +22,3 @@
     "longest": { "days": 0, "from": null, "to": null }
   }
 }
-
