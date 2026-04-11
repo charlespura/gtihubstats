@@ -1,24 +1,32 @@
 {
-  "generated_at": "2026-04-12T00:00:00.000Z",
+  "generated_at": "2026-04-11T17:12:59.697Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 0,
-    "followers": 0,
-    "following": 0
+    "repos": 59,
+    "followers": 22,
+    "following": 2
   },
   "range": {
     "from": "2025-04-13",
     "to": "2026-04-12"
   },
   "contributions": {
-    "total": 0
+    "total": 1389
   },
   "streaks": {
-    "current": { "days": 0, "from": null, "to": null },
-    "longest": { "days": 0, "from": null, "to": null }
+    "current": {
+      "days": 29,
+      "from": "2026-03-15",
+      "to": "2026-04-12"
+    },
+    "longest": {
+      "days": 29,
+      "from": "2026-03-15",
+      "to": "2026-04-12"
+    }
   }
 }
