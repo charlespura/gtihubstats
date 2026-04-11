@@ -204,6 +204,11 @@ function renderSvg(stats) {
   const updated = new Date(stats.generated_at).toISOString().slice(0, 10);
   const nextMilestone = stats?.milestones?.next ?? null;
   const milestoneText = nextMilestone ? `Next: ${nextMilestone} days` : "Milestone: —";
+  const milestoneProgress =
+    typeof stats?.milestones?.progress === "number"
+      ? Math.max(0, Math.min(1, stats.milestones.progress))
+      : 0;
+  const progressWidth = Math.round(152 * milestoneProgress);
 
   // Keep it GitHub-dark friendly, and readable in README.
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -220,6 +225,27 @@ function renderSvg(stats) {
       <stop offset="55%" stop-color="#ff7b72"/>
       <stop offset="100%" stop-color="#ffa657"/>
     </linearGradient>
+    <linearGradient id="fire" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffa657"/>
+      <stop offset="100%" stop-color="#ff7b72"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feColorMatrix
+        in="blur"
+        type="matrix"
+        values="
+          1 0 0 0 0
+          0 0.6 0 0 0
+          0 0 0.2 0 0
+          0 0 0 0.65 0"
+        result="colored"
+      />
+      <feMerge>
+        <feMergeNode in="colored"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   <rect x="0.5" y="0.5" width="719" height="209" rx="16" fill="url(#bg)" stroke="#30363d"/>
   <rect x="24" y="20" width="3" height="46" rx="2" fill="url(#accent)"/>
@@ -257,12 +283,21 @@ function renderSvg(stats) {
 
   <g transform="translate(330, 150)">
     <text x="0" y="0" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Current Streak</text>
-    <text x="0" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="750">${esc(
+    <g transform="translate(104, -12)" filter="url(#glow)">
+      <path
+        d="M10 2c1 4-1 6-3 8-2 2-3 4-2 7 1 3 4 5 7 5 4 0 7-3 7-7 0-4-3-6-5-9-1-2-2-3-1-4-2 1-3 2-3 0z"
+        fill="url(#fire)"
+      />
+      <path d="M12 10c1 2 0 3-1 4-1 1-1 2-1 3 0 2 2 3 3 3 2 0 3-2 3-4 0-2-2-3-3-6-1 1-1 1-1 0z" fill="#ffd1b3" opacity="0.55"/>
+    </g>
+    <text x="0" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="800">${esc(
       current
     )} days</text>
     <text x="0" y="48" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">${esc(
       milestoneText
     )}</text>
+    <rect x="0" y="58" width="152" height="8" rx="999" fill="#21262d" stroke="#30363d"/>
+    <rect x="0" y="58" width="${esc(progressWidth)}" height="8" rx="999" fill="url(#accent)"/>
 
     <text x="180" y="0" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Longest Streak</text>
     <text x="180" y="26" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="750">${esc(
