@@ -54,13 +54,15 @@
     <text x="68" y="17" text-anchor="middle" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Updated 2026-04-11</text>
   </g>
 
+  <!-- Left: Total contributions -->
   <text x="24" y="104" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="12">Total Contributions</text>
-  <text x="24" y="138" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="34" font-weight="900">1389</text>
+  <text x="24" y="138" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="34" font-weight="900">1396</text>
   <g transform="translate(24, 150)">
     <rect x="0" y="0" width="230" height="24" rx="999" fill="rgba(33,38,45,0.8)" stroke="rgba(48,54,61,0.9)"/>
     <text x="115" y="16" text-anchor="middle" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">2025-04-13 - 2026-04-12</text>
   </g>
 
+  <!-- Right: small stat tiles -->
   <g transform="translate(330, 86)">
     <rect x="0" y="0" width="116" height="54" rx="12" fill="rgba(13,17,23,0.55)" stroke="rgba(48,54,61,0.75)"/>
     <rect x="126" y="0" width="116" height="54" rx="12" fill="rgba(13,17,23,0.55)" stroke="rgba(48,54,61,0.75)"/>
@@ -76,13 +78,14 @@
     <text x="266" y="40" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="780">2</text>
   </g>
 
+  <!-- Bottom right: streak cards -->
   <g transform="translate(330, 148)">
     <rect x="0" y="0" width="176" height="52" rx="12" fill="rgba(13,17,23,0.55)" stroke="rgba(48,54,61,0.75)"/>
     <rect x="192" y="0" width="176" height="52" rx="12" fill="rgba(13,17,23,0.55)" stroke="rgba(48,54,61,0.75)"/>
 
+    <!-- Current streak with ring + fire -->
     <text x="14" y="18" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Current Streak</text>
     <text x="14" y="40" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="860">29 days</text>
-    <text x="14" y="50" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="10">Next: 30d</text>
 
     <g transform="translate(154, 30)">
       <circle cx="0" cy="0" r="13" fill="rgba(13,17,23,0.85)" stroke="rgba(48,54,61,0.95)" stroke-width="4"/>
@@ -93,9 +96,14 @@
       </g>
     </g>
 
+    <text x="14" y="50" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="10">Next: 30d</text>
+
+    <!-- Longest streak -->
     <text x="206" y="18" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">Longest Streak</text>
     <text x="206" y="40" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="18" font-weight="780">29 days</text>
+
+    <!-- Mini milestone bar -->
     <rect x="206" y="44" width="152" height="6" rx="999" fill="rgba(33,38,45,0.85)" stroke="rgba(48,54,61,0.9)"/>
-    <rect x="206" y="44" width="142" height="6" rx="999" fill="url(#accent)"/>
+    <rect x="206" y="44" width="143" height="6" rx="999" fill="url(#accent)"/>
   </g>
 </svg>
