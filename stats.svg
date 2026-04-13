@@ -59,7 +59,7 @@
   <text x="24" y="138" fill="#e6edf3" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="34" font-weight="900">1406</text>
   <g transform="translate(24, 150)">
     <rect x="0" y="0" width="230" height="24" rx="999" fill="rgba(33,38,45,0.8)" stroke="rgba(48,54,61,0.9)"/>
-    <text x="115" y="16" text-anchor="middle" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">2025-04-13 - 2026-04-13</text>
+    <text x="115" y="16" text-anchor="middle" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial" font-size="11">2025-04-13 - 2026-04-14</text>
   </g>
 
   <!-- Right: small stat tiles -->
