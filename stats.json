@@ -1,50 +1,638 @@
 {
-  "generated_at": "2026-04-11T17:12:59.697Z",
+  "generated_at": "2026-04-17T13:09:48.029Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 59,
-    "followers": 22,
-    "following": 2
+    "repos": 60,
+    "followers": 23,
+    "following": 3
   },
   "range": {
     "from": "2025-04-13",
-    "to": "2026-04-12"
+    "to": "2026-04-17"
   },
   "contributions": {
-    "total": 1389
+    "total": 1413
   },
   "streaks": {
     "current": {
-      "days": 29,
+      "days": 34,
       "from": "2026-03-15",
-      "to": "2026-04-12"
+      "to": "2026-04-17"
     },
     "longest": {
-      "days": 29,
+      "days": 34,
       "from": "2026-03-15",
-      "to": "2026-04-12"
+      "to": "2026-04-17"
     }
   },
   "milestones": {
-    "current": 29,
-    "next": 30,
-    "previous": 14,
-    "progress": 0.9375,
-    "milestones": [7, 14, 30, 60, 90, 100, 180, 365, 500, 730, 1000]
+    "current": 34,
+    "next": 60,
+    "previous": 30,
+    "progress": 0.13333333333333333,
+    "milestones": [
+      7,
+      14,
+      30,
+      60,
+      90,
+      100,
+      180,
+      365,
+      500,
+      730,
+      1000
+    ]
   },
   "highlights": {
-    "best_day": { "date": null, "count": 0 },
-    "best_week": { "from": null, "to": null, "total": 0 }
+    "best_day": {
+      "date": "2025-12-31",
+      "count": 50
+    },
+    "best_week": {
+      "from": "2025-12-25",
+      "to": "2025-12-31",
+      "total": 156
+    }
   },
   "heatmap": {
     "weeks": 16,
-    "max": 0,
-    "days": []
+    "max": 50,
+    "days": [
+      {
+        "date": "2025-12-27",
+        "count": 9
+      },
+      {
+        "date": "2025-12-28",
+        "count": 5
+      },
+      {
+        "date": "2025-12-29",
+        "count": 18
+      },
+      {
+        "date": "2025-12-30",
+        "count": 46
+      },
+      {
+        "date": "2025-12-31",
+        "count": 50
+      },
+      {
+        "date": "2026-01-01",
+        "count": 0
+      },
+      {
+        "date": "2026-01-02",
+        "count": 7
+      },
+      {
+        "date": "2026-01-03",
+        "count": 9
+      },
+      {
+        "date": "2026-01-04",
+        "count": 17
+      },
+      {
+        "date": "2026-01-05",
+        "count": 1
+      },
+      {
+        "date": "2026-01-06",
+        "count": 16
+      },
+      {
+        "date": "2026-01-07",
+        "count": 3
+      },
+      {
+        "date": "2026-01-08",
+        "count": 9
+      },
+      {
+        "date": "2026-01-09",
+        "count": 5
+      },
+      {
+        "date": "2026-01-10",
+        "count": 3
+      },
+      {
+        "date": "2026-01-11",
+        "count": 4
+      },
+      {
+        "date": "2026-01-12",
+        "count": 25
+      },
+      {
+        "date": "2026-01-13",
+        "count": 11
+      },
+      {
+        "date": "2026-01-14",
+        "count": 12
+      },
+      {
+        "date": "2026-01-15",
+        "count": 9
+      },
+      {
+        "date": "2026-01-16",
+        "count": 7
+      },
+      {
+        "date": "2026-01-17",
+        "count": 4
+      },
+      {
+        "date": "2026-01-18",
+        "count": 4
+      },
+      {
+        "date": "2026-01-19",
+        "count": 11
+      },
+      {
+        "date": "2026-01-20",
+        "count": 17
+      },
+      {
+        "date": "2026-01-21",
+        "count": 7
+      },
+      {
+        "date": "2026-01-22",
+        "count": 1
+      },
+      {
+        "date": "2026-01-23",
+        "count": 10
+      },
+      {
+        "date": "2026-01-24",
+        "count": 16
+      },
+      {
+        "date": "2026-01-25",
+        "count": 0
+      },
+      {
+        "date": "2026-01-26",
+        "count": 0
+      },
+      {
+        "date": "2026-01-27",
+        "count": 0
+      },
+      {
+        "date": "2026-01-28",
+        "count": 3
+      },
+      {
+        "date": "2026-01-29",
+        "count": 8
+      },
+      {
+        "date": "2026-01-30",
+        "count": 6
+      },
+      {
+        "date": "2026-01-31",
+        "count": 8
+      },
+      {
+        "date": "2026-02-01",
+        "count": 9
+      },
+      {
+        "date": "2026-02-02",
+        "count": 5
+      },
+      {
+        "date": "2026-02-03",
+        "count": 7
+      },
+      {
+        "date": "2026-02-04",
+        "count": 1
+      },
+      {
+        "date": "2026-02-05",
+        "count": 17
+      },
+      {
+        "date": "2026-02-06",
+        "count": 14
+      },
+      {
+        "date": "2026-02-07",
+        "count": 14
+      },
+      {
+        "date": "2026-02-08",
+        "count": 21
+      },
+      {
+        "date": "2026-02-09",
+        "count": 3
+      },
+      {
+        "date": "2026-02-10",
+        "count": 15
+      },
+      {
+        "date": "2026-02-11",
+        "count": 15
+      },
+      {
+        "date": "2026-02-12",
+        "count": 19
+      },
+      {
+        "date": "2026-02-13",
+        "count": 20
+      },
+      {
+        "date": "2026-02-14",
+        "count": 4
+      },
+      {
+        "date": "2026-02-15",
+        "count": 5
+      },
+      {
+        "date": "2026-02-16",
+        "count": 13
+      },
+      {
+        "date": "2026-02-17",
+        "count": 41
+      },
+      {
+        "date": "2026-02-18",
+        "count": 11
+      },
+      {
+        "date": "2026-02-19",
+        "count": 0
+      },
+      {
+        "date": "2026-02-20",
+        "count": 0
+      },
+      {
+        "date": "2026-02-21",
+        "count": 22
+      },
+      {
+        "date": "2026-02-22",
+        "count": 1
+      },
+      {
+        "date": "2026-02-23",
+        "count": 3
+      },
+      {
+        "date": "2026-02-24",
+        "count": 1
+      },
+      {
+        "date": "2026-02-25",
+        "count": 5
+      },
+      {
+        "date": "2026-02-26",
+        "count": 4
+      },
+      {
+        "date": "2026-02-27",
+        "count": 5
+      },
+      {
+        "date": "2026-02-28",
+        "count": 5
+      },
+      {
+        "date": "2026-03-01",
+        "count": 1
+      },
+      {
+        "date": "2026-03-02",
+        "count": 7
+      },
+      {
+        "date": "2026-03-03",
+        "count": 4
+      },
+      {
+        "date": "2026-03-04",
+        "count": 2
+      },
+      {
+        "date": "2026-03-05",
+        "count": 14
+      },
+      {
+        "date": "2026-03-06",
+        "count": 4
+      },
+      {
+        "date": "2026-03-07",
+        "count": 6
+      },
+      {
+        "date": "2026-03-08",
+        "count": 7
+      },
+      {
+        "date": "2026-03-09",
+        "count": 0
+      },
+      {
+        "date": "2026-03-10",
+        "count": 2
+      },
+      {
+        "date": "2026-03-11",
+        "count": 0
+      },
+      {
+        "date": "2026-03-12",
+        "count": 0
+      },
+      {
+        "date": "2026-03-13",
+        "count": 2
+      },
+      {
+        "date": "2026-03-14",
+        "count": 0
+      },
+      {
+        "date": "2026-03-15",
+        "count": 13
+      },
+      {
+        "date": "2026-03-16",
+        "count": 1
+      },
+      {
+        "date": "2026-03-17",
+        "count": 1
+      },
+      {
+        "date": "2026-03-18",
+        "count": 7
+      },
+      {
+        "date": "2026-03-19",
+        "count": 13
+      },
+      {
+        "date": "2026-03-20",
+        "count": 1
+      },
+      {
+        "date": "2026-03-21",
+        "count": 1
+      },
+      {
+        "date": "2026-03-22",
+        "count": 4
+      },
+      {
+        "date": "2026-03-23",
+        "count": 4
+      },
+      {
+        "date": "2026-03-24",
+        "count": 11
+      },
+      {
+        "date": "2026-03-25",
+        "count": 10
+      },
+      {
+        "date": "2026-03-26",
+        "count": 1
+      },
+      {
+        "date": "2026-03-27",
+        "count": 1
+      },
+      {
+        "date": "2026-03-28",
+        "count": 36
+      },
+      {
+        "date": "2026-03-29",
+        "count": 4
+      },
+      {
+        "date": "2026-03-30",
+        "count": 5
+      },
+      {
+        "date": "2026-03-31",
+        "count": 24
+      },
+      {
+        "date": "2026-04-01",
+        "count": 7
+      },
+      {
+        "date": "2026-04-02",
+        "count": 13
+      },
+      {
+        "date": "2026-04-03",
+        "count": 8
+      },
+      {
+        "date": "2026-04-04",
+        "count": 1
+      },
+      {
+        "date": "2026-04-05",
+        "count": 4
+      },
+      {
+        "date": "2026-04-06",
+        "count": 3
+      },
+      {
+        "date": "2026-04-07",
+        "count": 2
+      },
+      {
+        "date": "2026-04-08",
+        "count": 3
+      },
+      {
+        "date": "2026-04-09",
+        "count": 2
+      },
+      {
+        "date": "2026-04-10",
+        "count": 6
+      },
+      {
+        "date": "2026-04-11",
+        "count": 1
+      },
+      {
+        "date": "2026-04-12",
+        "count": 24
+      },
+      {
+        "date": "2026-04-13",
+        "count": 1
+      },
+      {
+        "date": "2026-04-14",
+        "count": 3
+      },
+      {
+        "date": "2026-04-15",
+        "count": 1
+      },
+      {
+        "date": "2026-04-16",
+        "count": 1
+      },
+      {
+        "date": "2026-04-17",
+        "count": 2
+      }
+    ]
   },
-  "languages": [],
-  "repos": { "top": [], "recent": [] }
+  "languages": [
+    {
+      "name": "HTML",
+      "repos": 29
+    },
+    {
+      "name": "JavaScript",
+      "repos": 10
+    },
+    {
+      "name": "PHP",
+      "repos": 6
+    },
+    {
+      "name": "TypeScript",
+      "repos": 2
+    },
+    {
+      "name": "CSS",
+      "repos": 2
+    },
+    {
+      "name": "Blade",
+      "repos": 1
+    },
+    {
+      "name": "Python",
+      "repos": 1
+    }
+  ],
+  "repos": {
+    "top": [
+      {
+        "name": "Sampledec15",
+        "url": "https://github.com/charlespura/Sampledec15",
+        "stars": 2,
+        "pushed_at": "2025-12-15T01:00:11Z",
+        "description": ""
+      },
+      {
+        "name": "Creative-Button-Hover-Effects",
+        "url": "https://github.com/charlespura/Creative-Button-Hover-Effects",
+        "stars": 2,
+        "pushed_at": "2025-12-12T10:41:30Z",
+        "description": ""
+      },
+      {
+        "name": "gtihubstats",
+        "url": "https://github.com/charlespura/gtihubstats",
+        "stars": 0,
+        "pushed_at": "2026-04-17T07:27:00Z",
+        "description": ""
+      },
+      {
+        "name": "DotMatrixAnimator",
+        "url": "https://github.com/charlespura/DotMatrixAnimator",
+        "stars": 0,
+        "pushed_at": "2026-04-17T06:58:18Z",
+        "description": ""
+      },
+      {
+        "name": "chDogAdoptionManagementSystem",
+        "url": "https://github.com/charlespura/chDogAdoptionManagementSystem",
+        "stars": 0,
+        "pushed_at": "2026-04-14T16:48:38Z",
+        "description": ""
+      },
+      {
+        "name": "charlespura",
+        "url": "https://github.com/charlespura/charlespura",
+        "stars": 0,
+        "pushed_at": "2026-04-12T12:07:34Z",
+        "description": "Config files for my GitHub profile."
+      },
+      {
+        "name": "3d-Portfolio-Free",
+        "url": "https://github.com/charlespura/3d-Portfolio-Free",
+        "stars": 0,
+        "pushed_at": "2026-04-11T16:26:54Z",
+        "description": ""
+      },
+      {
+        "name": "Artemis2",
+        "url": "https://github.com/charlespura/Artemis2",
+        "stars": 0,
+        "pushed_at": "2026-04-09T17:04:01Z",
+        "description": ""
+      }
+    ],
+    "recent": [
+      {
+        "name": "gtihubstats",
+        "url": "https://github.com/charlespura/gtihubstats",
+        "pushed_at": "2026-04-17T07:27:00Z"
+      },
+      {
+        "name": "DotMatrixAnimator",
+        "url": "https://github.com/charlespura/DotMatrixAnimator",
+        "pushed_at": "2026-04-17T06:58:18Z"
+      },
+      {
+        "name": "chDogAdoptionManagementSystem",
+        "url": "https://github.com/charlespura/chDogAdoptionManagementSystem",
+        "pushed_at": "2026-04-14T16:48:38Z"
+      },
+      {
+        "name": "charlespura",
+        "url": "https://github.com/charlespura/charlespura",
+        "pushed_at": "2026-04-12T12:07:34Z"
+      },
+      {
+        "name": "3d-Portfolio-Free",
+        "url": "https://github.com/charlespura/3d-Portfolio-Free",
+        "pushed_at": "2026-04-11T16:26:54Z"
+      },
+      {
+        "name": "Artemis2",
+        "url": "https://github.com/charlespura/Artemis2",
+        "pushed_at": "2026-04-09T17:04:01Z"
+      }
+    ]
+  }
 }
