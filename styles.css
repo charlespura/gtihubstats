@@ -15,7 +15,6 @@
   box-sizing: border-box;
 }
 
-
 html[data-theme="light"] {
   --bg: #f6f8fa;
   --card: #ffffff;
