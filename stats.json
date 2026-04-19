@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-04-19T12:53:42.026Z",
+  "generated_at": "2026-04-19T18:41:55.565Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 60,
+    "repos": 61,
     "followers": 23,
     "following": 3
   },
   "range": {
     "from": "2025-04-20",
-    "to": "2026-04-19"
+    "to": "2026-04-20"
   },
   "contributions": {
-    "total": 1420
+    "total": 1431
   },
   "streaks": {
     "current": {
-      "days": 36,
+      "days": 37,
       "from": "2026-03-15",
-      "to": "2026-04-19"
+      "to": "2026-04-20"
     },
     "longest": {
-      "days": 36,
+      "days": 37,
       "from": "2026-03-15",
-      "to": "2026-04-19"
+      "to": "2026-04-20"
     }
   },
   "milestones": {
-    "current": 36,
+    "current": 37,
     "next": 60,
     "previous": 30,
-    "progress": 0.2,
+    "progress": 0.23333333333333334,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 50,
     "days": [
-      {
-        "date": "2025-12-29",
-        "count": 18
-      },
       {
         "date": "2025-12-30",
         "count": 46
@@ -509,6 +505,10 @@
       },
       {
         "date": "2026-04-19",
+        "count": 11
+      },
+      {
+        "date": "2026-04-20",
         "count": 3
       }
     ]
@@ -520,7 +520,7 @@
     },
     {
       "name": "JavaScript",
-      "repos": 10
+      "repos": 11
     },
     {
       "name": "PHP",
@@ -560,10 +560,17 @@
         "description": ""
       },
       {
+        "name": "MyTestimonial",
+        "url": "https://github.com/charlespura/MyTestimonial",
+        "stars": 0,
+        "pushed_at": "2026-04-19T13:23:51Z",
+        "description": ""
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-04-19T11:18:44Z",
+        "pushed_at": "2026-04-19T12:53:42Z",
         "description": ""
       },
       {
@@ -593,20 +600,18 @@
         "stars": 0,
         "pushed_at": "2026-04-11T16:26:54Z",
         "description": ""
-      },
-      {
-        "name": "Artemis2",
-        "url": "https://github.com/charlespura/Artemis2",
-        "stars": 0,
-        "pushed_at": "2026-04-09T17:04:01Z",
-        "description": ""
       }
     ],
     "recent": [
       {
+        "name": "MyTestimonial",
+        "url": "https://github.com/charlespura/MyTestimonial",
+        "pushed_at": "2026-04-19T13:23:51Z"
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-04-19T11:18:44Z"
+        "pushed_at": "2026-04-19T12:53:42Z"
       },
       {
         "name": "DotMatrixAnimator",
@@ -627,11 +632,6 @@
         "name": "3d-Portfolio-Free",
         "url": "https://github.com/charlespura/3d-Portfolio-Free",
         "pushed_at": "2026-04-11T16:26:54Z"
-      },
-      {
-        "name": "Artemis2",
-        "url": "https://github.com/charlespura/Artemis2",
-        "pushed_at": "2026-04-09T17:04:01Z"
       }
     ]
   }
