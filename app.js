@@ -47,6 +47,7 @@ function setTheme(theme) {
   }
 }
 
+
 function initTheme() {
   const fromQuery = getParam("theme");
   if (fromQuery === "light" || fromQuery === "dark") {
