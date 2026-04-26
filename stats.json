@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-04-19T07:13:26.047Z",
+  "generated_at": "2026-04-26T12:58:02.601Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 60,
+    "repos": 62,
     "followers": 23,
     "following": 3
   },
   "range": {
-    "from": "2025-04-20",
-    "to": "2026-04-19"
+    "from": "2025-04-27",
+    "to": "2026-04-26"
   },
   "contributions": {
-    "total": 1418
+    "total": 1462
   },
   "streaks": {
     "current": {
-      "days": 36,
-      "from": "2026-03-15",
-      "to": "2026-04-19"
+      "days": 1,
+      "from": "2026-04-25",
+      "to": "2026-04-25"
     },
     "longest": {
-      "days": 36,
+      "days": 40,
       "from": "2026-03-15",
-      "to": "2026-04-19"
+      "to": "2026-04-23"
     }
   },
   "milestones": {
-    "current": 36,
-    "next": 60,
-    "previous": 30,
-    "progress": 0.2,
+    "current": 1,
+    "next": 7,
+    "previous": 0,
+    "progress": 0.14285714285714285,
     "milestones": [
       7,
       14,
@@ -61,36 +61,8 @@
   },
   "heatmap": {
     "weeks": 16,
-    "max": 50,
+    "max": 41,
     "days": [
-      {
-        "date": "2025-12-29",
-        "count": 18
-      },
-      {
-        "date": "2025-12-30",
-        "count": 46
-      },
-      {
-        "date": "2025-12-31",
-        "count": 50
-      },
-      {
-        "date": "2026-01-01",
-        "count": 0
-      },
-      {
-        "date": "2026-01-02",
-        "count": 7
-      },
-      {
-        "date": "2026-01-03",
-        "count": 9
-      },
-      {
-        "date": "2026-01-04",
-        "count": 17
-      },
       {
         "date": "2026-01-05",
         "count": 1
@@ -509,18 +481,46 @@
       },
       {
         "date": "2026-04-19",
+        "count": 11
+      },
+      {
+        "date": "2026-04-20",
+        "count": 6
+      },
+      {
+        "date": "2026-04-21",
         "count": 1
+      },
+      {
+        "date": "2026-04-22",
+        "count": 21
+      },
+      {
+        "date": "2026-04-23",
+        "count": 3
+      },
+      {
+        "date": "2026-04-24",
+        "count": 0
+      },
+      {
+        "date": "2026-04-25",
+        "count": 3
+      },
+      {
+        "date": "2026-04-26",
+        "count": 0
       }
     ]
   },
   "languages": [
     {
       "name": "HTML",
-      "repos": 29
+      "repos": 30
     },
     {
       "name": "JavaScript",
-      "repos": 10
+      "repos": 11
     },
     {
       "name": "PHP",
@@ -563,7 +563,35 @@
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-04-19T02:12:42Z",
+        "pushed_at": "2026-04-26T07:23:03Z",
+        "description": ""
+      },
+      {
+        "name": "BakesbyRica",
+        "url": "https://github.com/charlespura/BakesbyRica",
+        "stars": 0,
+        "pushed_at": "2026-04-25T14:42:03Z",
+        "description": ""
+      },
+      {
+        "name": "BCPGradSongWithLyrics",
+        "url": "https://github.com/charlespura/BCPGradSongWithLyrics",
+        "stars": 0,
+        "pushed_at": "2026-04-25T14:36:45Z",
+        "description": ""
+      },
+      {
+        "name": "Client-Project-Payment-Management-System",
+        "url": "https://github.com/charlespura/Client-Project-Payment-Management-System",
+        "stars": 0,
+        "pushed_at": "2026-04-20T06:11:33Z",
+        "description": ""
+      },
+      {
+        "name": "MyTestimonial",
+        "url": "https://github.com/charlespura/MyTestimonial",
+        "stars": 0,
+        "pushed_at": "2026-04-19T13:23:51Z",
         "description": ""
       },
       {
@@ -572,66 +600,38 @@
         "stars": 0,
         "pushed_at": "2026-04-17T06:58:18Z",
         "description": ""
-      },
-      {
-        "name": "chDogAdoptionManagementSystem",
-        "url": "https://github.com/charlespura/chDogAdoptionManagementSystem",
-        "stars": 0,
-        "pushed_at": "2026-04-14T16:48:38Z",
-        "description": ""
-      },
-      {
-        "name": "charlespura",
-        "url": "https://github.com/charlespura/charlespura",
-        "stars": 0,
-        "pushed_at": "2026-04-12T12:07:34Z",
-        "description": "Config files for my GitHub profile."
-      },
-      {
-        "name": "3d-Portfolio-Free",
-        "url": "https://github.com/charlespura/3d-Portfolio-Free",
-        "stars": 0,
-        "pushed_at": "2026-04-11T16:26:54Z",
-        "description": ""
-      },
-      {
-        "name": "Artemis2",
-        "url": "https://github.com/charlespura/Artemis2",
-        "stars": 0,
-        "pushed_at": "2026-04-09T17:04:01Z",
-        "description": ""
       }
     ],
     "recent": [
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-04-19T02:12:42Z"
+        "pushed_at": "2026-04-26T07:23:03Z"
+      },
+      {
+        "name": "BakesbyRica",
+        "url": "https://github.com/charlespura/BakesbyRica",
+        "pushed_at": "2026-04-25T14:42:03Z"
+      },
+      {
+        "name": "BCPGradSongWithLyrics",
+        "url": "https://github.com/charlespura/BCPGradSongWithLyrics",
+        "pushed_at": "2026-04-25T14:36:45Z"
+      },
+      {
+        "name": "Client-Project-Payment-Management-System",
+        "url": "https://github.com/charlespura/Client-Project-Payment-Management-System",
+        "pushed_at": "2026-04-20T06:11:33Z"
+      },
+      {
+        "name": "MyTestimonial",
+        "url": "https://github.com/charlespura/MyTestimonial",
+        "pushed_at": "2026-04-19T13:23:51Z"
       },
       {
         "name": "DotMatrixAnimator",
         "url": "https://github.com/charlespura/DotMatrixAnimator",
         "pushed_at": "2026-04-17T06:58:18Z"
-      },
-      {
-        "name": "chDogAdoptionManagementSystem",
-        "url": "https://github.com/charlespura/chDogAdoptionManagementSystem",
-        "pushed_at": "2026-04-14T16:48:38Z"
-      },
-      {
-        "name": "charlespura",
-        "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-04-12T12:07:34Z"
-      },
-      {
-        "name": "3d-Portfolio-Free",
-        "url": "https://github.com/charlespura/3d-Portfolio-Free",
-        "pushed_at": "2026-04-11T16:26:54Z"
-      },
-      {
-        "name": "Artemis2",
-        "url": "https://github.com/charlespura/Artemis2",
-        "pushed_at": "2026-04-09T17:04:01Z"
       }
     ]
   }
