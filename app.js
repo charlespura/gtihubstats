@@ -4,10 +4,47 @@ function getParam(name) {
   return new URLSearchParams(window.location.search).get(name);
 }
 
+function parseDateForDisplay(iso) {
+  if (!iso) return null;
+  // Dates coming from GitHub's contribution calendar are "YYYY-MM-DD" (date-only).
+  // `new Date("YYYY-MM-DD")` is treated as UTC and can render as the previous day
+  // for viewers in negative timezones. Parse date-only values as local dates.
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso));
+  if (m) return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return null;
+  return d;
+}
+
+function localIsoToday() {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function localIsoFromDate(d) {
+  if (!(d instanceof Date) || Number.isNaN(d.getTime())) return null;
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function diffDaysIso(aIso, bIso) {
+  if (!aIso || !bIso) return NaN;
+  const a = new Date(`${aIso}T00:00:00.000Z`);
+  const b = new Date(`${bIso}T00:00:00.000Z`);
+  if (Number.isNaN(a.getTime()) || Number.isNaN(b.getTime())) return NaN;
+  return Math.round((b - a) / 86400000);
+}
+
 function fmtDate(iso) {
   if (!iso) return "—";
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return "—";
+  const d = parseDateForDisplay(iso);
+  if (!d) return "—";
   return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
 }
 
@@ -184,6 +221,29 @@ async function load() {
 
   $("currentStreakDays").textContent = plural(data?.streaks?.current?.days, "day");
   $("currentStreakRange").textContent = fmtRange(data?.streaks?.current?.from, data?.streaks?.current?.to);
+
+  const curTo = data?.streaks?.current?.to ?? null;
+  const todayIso = localIsoToday();
+  const note = $("currentStreakNote");
+  if (note) {
+    const generatedAt = data?.generated_at ?? null;
+    const generatedAtLocalIso = localIsoFromDate(parseDateForDisplay(generatedAt));
+    const stale =
+      generatedAtLocalIso && diffDaysIso(generatedAtLocalIso, todayIso) >= 1
+        ? ` Stats last updated ${fmtDate(generatedAtLocalIso)}.`
+        : "";
+
+    if (!curTo) {
+      note.textContent = "";
+    } else if (curTo === todayIso) {
+      note.textContent = `Today is ${fmtDate(todayIso)}.${stale}`;
+    } else if (diffDaysIso(curTo, todayIso) === 1) {
+      note.textContent = `Today is ${fmtDate(todayIso)} — no contributions yet today (streak is still active).${stale}`;
+    } else {
+      note.textContent = `Today is ${fmtDate(todayIso)}.${stale}`;
+    }
+  }
+
   const next = data?.milestones?.next ?? null;
   const progress = typeof data?.milestones?.progress === "number" ? data.milestones.progress : 0;
   $("milestoneText").textContent = next
