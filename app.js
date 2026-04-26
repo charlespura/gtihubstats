@@ -48,6 +48,19 @@ function fmtDate(iso) {
   return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
 }
 
+function fmtDateTime(iso) {
+  if (!iso) return "—";
+  const d = parseDateForDisplay(iso);
+  if (!d) return "—";
+  return d.toLocaleString(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+    hour: "numeric",
+    minute: "2-digit"
+  });
+}
+
 function fmtRange(startIso, endIso) {
   const start = fmtDate(startIso);
   const end = fmtDate(endIso);
@@ -228,6 +241,7 @@ async function load() {
   if (note) {
     const generatedAt = data?.generated_at ?? null;
     const generatedAtLocalIso = localIsoFromDate(parseDateForDisplay(generatedAt));
+    const generatedAtText = generatedAt ? ` Stats updated ${fmtDateTime(generatedAt)}.` : "";
     const stale =
       generatedAtLocalIso && diffDaysIso(generatedAtLocalIso, todayIso) >= 1
         ? ` Stats last updated ${fmtDate(generatedAtLocalIso)}.`
@@ -236,11 +250,11 @@ async function load() {
     if (!curTo) {
       note.textContent = "";
     } else if (curTo === todayIso) {
-      note.textContent = `Today is ${fmtDate(todayIso)}.${stale}`;
+      note.textContent = `Today is ${fmtDate(todayIso)}.${generatedAtText}${stale}`;
     } else if (diffDaysIso(curTo, todayIso) === 1) {
-      note.textContent = `Today is ${fmtDate(todayIso)} — no contributions yet today (streak is still active).${stale}`;
+      note.textContent = `Today is ${fmtDate(todayIso)} — no contributions yet today (streak is still active).${generatedAtText}${stale}`;
     } else {
-      note.textContent = `Today is ${fmtDate(todayIso)}.${stale}`;
+      note.textContent = `Today is ${fmtDate(todayIso)}.${generatedAtText}${stale}`;
     }
   }
 
@@ -253,7 +267,7 @@ async function load() {
   if (fill) fill.style.width = `${Math.round(clamp(progress, 0, 1) * 100)}%`;
 
   const updated = data?.generated_at ?? null;
-  $("updatedAt").textContent = updated ? `Last updated: ${fmtDate(updated)}` : "—";
+  $("updatedAt").textContent = updated ? `Last updated: ${fmtDateTime(updated)}` : "—";
 
   // Heatmap + highlights
   renderHeatmap($("heatmap"), data?.heatmap);
