@@ -17,6 +17,7 @@ function parseDateForDisplay(iso) {
   return d;
 }
 
+
 function localIsoToday() {
   const d = new Date();
   const y = d.getFullYear();
