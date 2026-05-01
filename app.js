@@ -42,6 +42,7 @@ function diffDaysIso(aIso, bIso) {
   return Math.round((b - a) / 86400000);
 }
 
+
 function fmtDate(iso) {
   if (!iso) return "—";
   const d = parseDateForDisplay(iso);
