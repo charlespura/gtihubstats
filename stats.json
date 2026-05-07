@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T19:41:32.411Z",
+  "generated_at": "2026-05-07T02:31:00.058Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -15,25 +15,25 @@
     "to": "2026-05-07"
   },
   "contributions": {
-    "total": 1482
+    "total": 1483
   },
   "streaks": {
     "current": {
-      "days": 53,
+      "days": 54,
       "from": "2026-03-15",
-      "to": "2026-05-06"
+      "to": "2026-05-07"
     },
     "longest": {
-      "days": 53,
+      "days": 54,
       "from": "2026-03-15",
-      "to": "2026-05-06"
+      "to": "2026-05-07"
     }
   },
   "milestones": {
-    "current": 53,
+    "current": 54,
     "next": 60,
     "previous": 30,
-    "progress": 0.7666666666666667,
+    "progress": 0.8,
     "milestones": [
       7,
       14,
@@ -509,7 +509,7 @@
       },
       {
         "date": "2026-05-07",
-        "count": 0
+        "count": 1
       }
     ]
   },
@@ -560,10 +560,17 @@
         "description": ""
       },
       {
+        "name": "charlespura",
+        "url": "https://github.com/charlespura/charlespura",
+        "stars": 0,
+        "pushed_at": "2026-05-06T23:36:37Z",
+        "description": "Config files for my GitHub profile."
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-05-06T13:59:07Z",
+        "pushed_at": "2026-05-06T19:41:33Z",
         "description": ""
       },
       {
@@ -593,20 +600,18 @@
         "stars": 0,
         "pushed_at": "2026-04-20T06:11:33Z",
         "description": ""
-      },
-      {
-        "name": "MyTestimonial",
-        "url": "https://github.com/charlespura/MyTestimonial",
-        "stars": 0,
-        "pushed_at": "2026-04-19T13:23:51Z",
-        "description": ""
       }
     ],
     "recent": [
       {
+        "name": "charlespura",
+        "url": "https://github.com/charlespura/charlespura",
+        "pushed_at": "2026-05-06T23:36:37Z"
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-05-06T13:59:07Z"
+        "pushed_at": "2026-05-06T19:41:33Z"
       },
       {
         "name": "chIPON-CHALLENGE",
@@ -627,11 +632,6 @@
         "name": "Client-Project-Payment-Management-System",
         "url": "https://github.com/charlespura/Client-Project-Payment-Management-System",
         "pushed_at": "2026-04-20T06:11:33Z"
-      },
-      {
-        "name": "MyTestimonial",
-        "url": "https://github.com/charlespura/MyTestimonial",
-        "pushed_at": "2026-04-19T13:23:51Z"
       }
     ]
   }
