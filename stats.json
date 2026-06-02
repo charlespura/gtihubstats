@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T02:59:02.934Z",
+  "generated_at": "2026-06-02T10:14:43.897Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -12,28 +12,28 @@
   },
   "range": {
     "from": "2025-06-01",
-    "to": "2026-05-31"
+    "to": "2026-06-02"
   },
   "contributions": {
-    "total": 1500
+    "total": 1505
   },
   "streaks": {
     "current": {
-      "days": 75,
+      "days": 78,
       "from": "2026-03-15",
-      "to": "2026-05-28"
+      "to": "2026-05-31"
     },
     "longest": {
-      "days": 75,
+      "days": 78,
       "from": "2026-03-15",
-      "to": "2026-05-28"
+      "to": "2026-05-31"
     }
   },
   "milestones": {
-    "current": 75,
+    "current": 78,
     "next": 90,
     "previous": 60,
-    "progress": 0.5,
+    "progress": 0.6,
     "milestones": [
       7,
       14,
@@ -63,14 +63,6 @@
     "weeks": 16,
     "max": 41,
     "days": [
-      {
-        "date": "2026-02-09",
-        "count": 3
-      },
-      {
-        "date": "2026-02-10",
-        "count": 15
-      },
       {
         "date": "2026-02-11",
         "count": 15
@@ -497,18 +489,26 @@
       },
       {
         "date": "2026-05-28",
-        "count": 2
+        "count": 3
       },
       {
         "date": "2026-05-29",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-05-30",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-05-31",
+        "count": 2
+      },
+      {
+        "date": "2026-06-01",
+        "count": 0
+      },
+      {
+        "date": "2026-06-02",
         "count": 0
       }
     ]
@@ -563,7 +563,7 @@
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-05-30T19:06:18Z",
+        "pushed_at": "2026-06-02T03:32:56Z",
         "description": ""
       },
       {
@@ -606,7 +606,7 @@
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-05-30T19:06:18Z"
+        "pushed_at": "2026-06-02T03:32:56Z"
       },
       {
         "name": "charlespura",
