@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-19T14:55:00.631Z",
+  "generated_at": "2026-06-19T19:43:14.599Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 64,
+    "repos": 65,
     "followers": 23,
     "following": 3
   },
   "range": {
     "from": "2025-06-15",
-    "to": "2026-06-19"
+    "to": "2026-06-20"
   },
   "contributions": {
-    "total": 1486
+    "total": 1493
   },
   "streaks": {
     "current": {
-      "days": 95,
-      "from": "2026-03-15",
-      "to": "2026-06-17"
+      "days": 1,
+      "from": "2026-06-20",
+      "to": "2026-06-20"
     },
     "longest": {
       "days": 95,
@@ -30,10 +30,10 @@
     }
   },
   "milestones": {
-    "current": 95,
-    "next": 100,
-    "previous": 90,
-    "progress": 0.5,
+    "current": 1,
+    "next": 7,
+    "previous": 0,
+    "progress": 0.14285714285714285,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 36,
     "days": [
-      {
-        "date": "2026-02-28",
-        "count": 5
-      },
       {
         "date": "2026-03-01",
         "count": 1
@@ -510,6 +506,10 @@
       {
         "date": "2026-06-19",
         "count": 0
+      },
+      {
+        "date": "2026-06-20",
+        "count": 7
       }
     ]
   },
@@ -527,15 +527,15 @@
       "repos": 6
     },
     {
+      "name": "CSS",
+      "repos": 3
+    },
+    {
       "name": "Python",
       "repos": 2
     },
     {
       "name": "TypeScript",
-      "repos": 2
-    },
-    {
-      "name": "CSS",
       "repos": 2
     },
     {
@@ -560,10 +560,17 @@
         "description": ""
       },
       {
+        "name": "Charging-Prediction",
+        "url": "https://github.com/charlespura/Charging-Prediction",
+        "stars": 0,
+        "pushed_at": "2026-06-19T16:51:20Z",
+        "description": ""
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-06-19T10:19:18Z",
+        "pushed_at": "2026-06-19T14:55:01Z",
         "description": ""
       },
       {
@@ -593,20 +600,18 @@
         "stars": 0,
         "pushed_at": "2026-05-12T16:43:09Z",
         "description": ""
-      },
-      {
-        "name": "BakesbyRica",
-        "url": "https://github.com/charlespura/BakesbyRica",
-        "stars": 0,
-        "pushed_at": "2026-04-26T14:48:42Z",
-        "description": ""
       }
     ],
     "recent": [
       {
+        "name": "Charging-Prediction",
+        "url": "https://github.com/charlespura/Charging-Prediction",
+        "pushed_at": "2026-06-19T16:51:20Z"
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-06-19T10:19:18Z"
+        "pushed_at": "2026-06-19T14:55:01Z"
       },
       {
         "name": "charlespura",
@@ -627,11 +632,6 @@
         "name": "chIPON-CHALLENGE",
         "url": "https://github.com/charlespura/chIPON-CHALLENGE",
         "pushed_at": "2026-05-12T16:43:09Z"
-      },
-      {
-        "name": "BakesbyRica",
-        "url": "https://github.com/charlespura/BakesbyRica",
-        "pushed_at": "2026-04-26T14:48:42Z"
       }
     ]
   }
