@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-25T08:54:12.285Z",
+  "generated_at": "2026-06-25T14:21:39.647Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 67,
+    "repos": 68,
     "followers": 23,
     "following": 3
   },
@@ -15,13 +15,13 @@
     "to": "2026-06-25"
   },
   "contributions": {
-    "total": 1496
+    "total": 1500
   },
   "streaks": {
     "current": {
       "days": 1,
-      "from": "2026-06-22",
-      "to": "2026-06-22"
+      "from": "2026-06-25",
+      "to": "2026-06-25"
     },
     "longest": {
       "days": 95,
@@ -509,7 +509,7 @@
       },
       {
         "date": "2026-06-25",
-        "count": 0
+        "count": 4
       }
     ]
   },
@@ -531,6 +531,10 @@
       "repos": 3
     },
     {
+      "name": "Blade",
+      "repos": 2
+    },
+    {
       "name": "Python",
       "repos": 2
     },
@@ -540,10 +544,6 @@
     },
     {
       "name": "Vue",
-      "repos": 1
-    },
-    {
-      "name": "Blade",
       "repos": 1
     }
   ],
@@ -564,10 +564,17 @@
         "description": ""
       },
       {
+        "name": "InventorySystemLaravel-CharlesPura",
+        "url": "https://github.com/charlespura/InventorySystemLaravel-CharlesPura",
+        "stars": 0,
+        "pushed_at": "2026-06-25T14:17:41Z",
+        "description": ""
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-06-25T02:49:00Z",
+        "pushed_at": "2026-06-25T08:54:13Z",
         "description": ""
       },
       {
@@ -597,20 +604,18 @@
         "stars": 0,
         "pushed_at": "2026-06-05T15:36:34Z",
         "description": "Config files for my GitHub profile."
-      },
-      {
-        "name": "ChvoiceLink",
-        "url": "https://github.com/charlespura/ChvoiceLink",
-        "stars": 0,
-        "pushed_at": "2026-05-21T14:19:40Z",
-        "description": ""
       }
     ],
     "recent": [
       {
+        "name": "InventorySystemLaravel-CharlesPura",
+        "url": "https://github.com/charlespura/InventorySystemLaravel-CharlesPura",
+        "pushed_at": "2026-06-25T14:17:41Z"
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-06-25T02:49:00Z"
+        "pushed_at": "2026-06-25T08:54:13Z"
       },
       {
         "name": "GolfVsHoles",
@@ -631,11 +636,6 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "pushed_at": "2026-06-05T15:36:34Z"
-      },
-      {
-        "name": "ChvoiceLink",
-        "url": "https://github.com/charlespura/ChvoiceLink",
-        "pushed_at": "2026-05-21T14:19:40Z"
       }
     ]
   }
