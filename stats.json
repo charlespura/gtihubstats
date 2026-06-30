@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T14:13:53.697Z",
+  "generated_at": "2026-06-30T09:25:50.736Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -11,29 +11,29 @@
     "following": 3
   },
   "range": {
-    "from": "2025-06-22",
-    "to": "2026-06-26"
+    "from": "2025-06-29",
+    "to": "2026-06-30"
   },
   "contributions": {
-    "total": 1508
+    "total": 1519
   },
   "streaks": {
     "current": {
-      "days": 103,
-      "from": "2026-03-15",
-      "to": "2026-06-25"
+      "days": 2,
+      "from": "2026-06-28",
+      "to": "2026-06-29"
     },
     "longest": {
-      "days": 103,
+      "days": 104,
       "from": "2026-03-15",
-      "to": "2026-06-25"
+      "to": "2026-06-26"
     }
   },
   "milestones": {
-    "current": 103,
-    "next": 180,
-    "previous": 100,
-    "progress": 0.0375,
+    "current": 2,
+    "next": 7,
+    "previous": 0,
+    "progress": 0.2857142857142857,
     "milestones": [
       7,
       14,
@@ -63,22 +63,6 @@
     "weeks": 16,
     "max": 36,
     "days": [
-      {
-        "date": "2026-03-07",
-        "count": 6
-      },
-      {
-        "date": "2026-03-08",
-        "count": 7
-      },
-      {
-        "date": "2026-03-09",
-        "count": 0
-      },
-      {
-        "date": "2026-03-10",
-        "count": 2
-      },
       {
         "date": "2026-03-11",
         "count": 0
@@ -509,6 +493,22 @@
       },
       {
         "date": "2026-06-26",
+        "count": 5
+      },
+      {
+        "date": "2026-06-27",
+        "count": 0
+      },
+      {
+        "date": "2026-06-28",
+        "count": 2
+      },
+      {
+        "date": "2026-06-29",
+        "count": 4
+      },
+      {
+        "date": "2026-06-30",
         "count": 0
       }
     ]
@@ -567,14 +567,21 @@
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-06-26T08:57:04Z",
+        "pushed_at": "2026-06-30T02:53:26Z",
         "description": ""
+      },
+      {
+        "name": "charlespura",
+        "url": "https://github.com/charlespura/charlespura",
+        "stars": 0,
+        "pushed_at": "2026-06-29T14:48:35Z",
+        "description": "Config files for my GitHub profile."
       },
       {
         "name": "InventorySystemLaravel-CharlesPura",
         "url": "https://github.com/charlespura/InventorySystemLaravel-CharlesPura",
         "stars": 0,
-        "pushed_at": "2026-06-25T14:17:41Z",
+        "pushed_at": "2026-06-26T15:10:24Z",
         "description": ""
       },
       {
@@ -597,25 +604,23 @@
         "stars": 0,
         "pushed_at": "2026-06-19T16:51:20Z",
         "description": ""
-      },
-      {
-        "name": "charlespura",
-        "url": "https://github.com/charlespura/charlespura",
-        "stars": 0,
-        "pushed_at": "2026-06-05T15:36:34Z",
-        "description": "Config files for my GitHub profile."
       }
     ],
     "recent": [
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-06-26T08:57:04Z"
+        "pushed_at": "2026-06-30T02:53:26Z"
+      },
+      {
+        "name": "charlespura",
+        "url": "https://github.com/charlespura/charlespura",
+        "pushed_at": "2026-06-29T14:48:35Z"
       },
       {
         "name": "InventorySystemLaravel-CharlesPura",
         "url": "https://github.com/charlespura/InventorySystemLaravel-CharlesPura",
-        "pushed_at": "2026-06-25T14:17:41Z"
+        "pushed_at": "2026-06-26T15:10:24Z"
       },
       {
         "name": "GolfVsHoles",
@@ -631,11 +636,6 @@
         "name": "Charging-Prediction",
         "url": "https://github.com/charlespura/Charging-Prediction",
         "pushed_at": "2026-06-19T16:51:20Z"
-      },
-      {
-        "name": "charlespura",
-        "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-06-05T15:36:34Z"
       }
     ]
   }
