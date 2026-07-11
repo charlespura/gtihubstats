@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-11T02:10:23.559Z",
+  "generated_at": "2026-07-11T07:47:22.580Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 75,
+    "repos": 76,
     "followers": 23,
     "following": 3
   },
@@ -15,25 +15,25 @@
     "to": "2026-07-11"
   },
   "contributions": {
-    "total": 1568
+    "total": 1572
   },
   "streaks": {
     "current": {
-      "days": 118,
+      "days": 119,
       "from": "2026-03-15",
-      "to": "2026-07-10"
+      "to": "2026-07-11"
     },
     "longest": {
-      "days": 118,
+      "days": 119,
       "from": "2026-03-15",
-      "to": "2026-07-10"
+      "to": "2026-07-11"
     }
   },
   "milestones": {
-    "current": 118,
+    "current": 119,
     "next": 180,
     "previous": 100,
-    "progress": 0.225,
+    "progress": 0.2375,
     "milestones": [
       7,
       14,
@@ -509,14 +509,14 @@
       },
       {
         "date": "2026-07-11",
-        "count": 0
+        "count": 4
       }
     ]
   },
   "languages": [
     {
       "name": "HTML",
-      "repos": 31
+      "repos": 32
     },
     {
       "name": "JavaScript",
@@ -564,10 +564,17 @@
         "description": ""
       },
       {
+        "name": "Gsap-Animation",
+        "url": "https://github.com/charlespura/Gsap-Animation",
+        "stars": 0,
+        "pushed_at": "2026-07-11T06:53:30Z",
+        "description": ""
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-07-10T19:21:01Z",
+        "pushed_at": "2026-07-11T02:10:24Z",
         "description": ""
       },
       {
@@ -597,20 +604,18 @@
         "stars": 0,
         "pushed_at": "2026-07-02T15:00:26Z",
         "description": ""
-      },
-      {
-        "name": "Kids-Learning-App",
-        "url": "https://github.com/charlespura/Kids-Learning-App",
-        "stars": 0,
-        "pushed_at": "2026-06-30T11:51:15Z",
-        "description": ""
       }
     ],
     "recent": [
       {
+        "name": "Gsap-Animation",
+        "url": "https://github.com/charlespura/Gsap-Animation",
+        "pushed_at": "2026-07-11T06:53:30Z"
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-07-10T19:21:01Z"
+        "pushed_at": "2026-07-11T02:10:24Z"
       },
       {
         "name": "EvolutionoftheInternet",
@@ -631,11 +636,6 @@
         "name": "ResumeReviewer",
         "url": "https://github.com/charlespura/ResumeReviewer",
         "pushed_at": "2026-07-02T15:00:26Z"
-      },
-      {
-        "name": "Kids-Learning-App",
-        "url": "https://github.com/charlespura/Kids-Learning-App",
-        "pushed_at": "2026-06-30T11:51:15Z"
       }
     ]
   }
