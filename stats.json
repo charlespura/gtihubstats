@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-12T08:09:08.159Z",
+  "generated_at": "2026-07-12T13:09:38.863Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 76,
+    "repos": 77,
     "followers": 23,
     "following": 3
   },
@@ -15,25 +15,25 @@
     "to": "2026-07-12"
   },
   "contributions": {
-    "total": 1572
+    "total": 1576
   },
   "streaks": {
     "current": {
-      "days": 119,
+      "days": 120,
       "from": "2026-03-15",
-      "to": "2026-07-11"
+      "to": "2026-07-12"
     },
     "longest": {
-      "days": 119,
+      "days": 120,
       "from": "2026-03-15",
-      "to": "2026-07-11"
+      "to": "2026-07-12"
     }
   },
   "milestones": {
-    "current": 119,
+    "current": 120,
     "next": 180,
     "previous": 100,
-    "progress": 0.2375,
+    "progress": 0.25,
     "milestones": [
       7,
       14,
@@ -509,7 +509,7 @@
       },
       {
         "date": "2026-07-12",
-        "count": 0
+        "count": 4
       }
     ]
   },
@@ -520,7 +520,7 @@
     },
     {
       "name": "JavaScript",
-      "repos": 14
+      "repos": 15
     },
     {
       "name": "PHP",
@@ -564,10 +564,17 @@
         "description": ""
       },
       {
+        "name": "React-Native-Auth-App",
+        "url": "https://github.com/charlespura/React-Native-Auth-App",
+        "stars": 0,
+        "pushed_at": "2026-07-12T13:08:48Z",
+        "description": ""
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-07-12T02:20:54Z",
+        "pushed_at": "2026-07-12T08:09:09Z",
         "description": ""
       },
       {
@@ -597,20 +604,18 @@
         "stars": 0,
         "pushed_at": "2026-07-06T07:19:44Z",
         "description": "Config files for my GitHub profile."
-      },
-      {
-        "name": "ResumeReviewer",
-        "url": "https://github.com/charlespura/ResumeReviewer",
-        "stars": 0,
-        "pushed_at": "2026-07-02T15:00:26Z",
-        "description": ""
       }
     ],
     "recent": [
       {
+        "name": "React-Native-Auth-App",
+        "url": "https://github.com/charlespura/React-Native-Auth-App",
+        "pushed_at": "2026-07-12T13:08:48Z"
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-07-12T02:20:54Z"
+        "pushed_at": "2026-07-12T08:09:09Z"
       },
       {
         "name": "Gsap-Animation",
@@ -631,11 +636,6 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "pushed_at": "2026-07-06T07:19:44Z"
-      },
-      {
-        "name": "ResumeReviewer",
-        "url": "https://github.com/charlespura/ResumeReviewer",
-        "pushed_at": "2026-07-02T15:00:26Z"
       }
     ]
   }
