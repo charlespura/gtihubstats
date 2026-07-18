@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-07-05T08:46:41.661Z",
+  "generated_at": "2026-07-18T13:04:07.009Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 73,
+    "repos": 77,
     "followers": 23,
     "following": 3
   },
   "range": {
-    "from": "2025-07-06",
-    "to": "2026-07-05"
+    "from": "2025-07-13",
+    "to": "2026-07-18"
   },
   "contributions": {
-    "total": 1546
+    "total": 1588
   },
   "streaks": {
     "current": {
       "days": 1,
-      "from": "2026-07-04",
-      "to": "2026-07-04"
+      "from": "2026-07-17",
+      "to": "2026-07-17"
     },
     "longest": {
-      "days": 108,
+      "days": 122,
       "from": "2026-03-15",
-      "to": "2026-06-30"
+      "to": "2026-07-14"
     }
   },
   "milestones": {
@@ -61,60 +61,8 @@
   },
   "heatmap": {
     "weeks": 16,
-    "max": 36,
+    "max": 24,
     "days": [
-      {
-        "date": "2026-03-16",
-        "count": 1
-      },
-      {
-        "date": "2026-03-17",
-        "count": 1
-      },
-      {
-        "date": "2026-03-18",
-        "count": 7
-      },
-      {
-        "date": "2026-03-19",
-        "count": 13
-      },
-      {
-        "date": "2026-03-20",
-        "count": 1
-      },
-      {
-        "date": "2026-03-21",
-        "count": 1
-      },
-      {
-        "date": "2026-03-22",
-        "count": 4
-      },
-      {
-        "date": "2026-03-23",
-        "count": 4
-      },
-      {
-        "date": "2026-03-24",
-        "count": 11
-      },
-      {
-        "date": "2026-03-25",
-        "count": 10
-      },
-      {
-        "date": "2026-03-26",
-        "count": 1
-      },
-      {
-        "date": "2026-03-27",
-        "count": 1
-      },
-      {
-        "date": "2026-03-28",
-        "count": 36
-      },
       {
         "date": "2026-03-29",
         "count": 4
@@ -493,7 +441,7 @@
       },
       {
         "date": "2026-07-01",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-07-02",
@@ -501,7 +449,7 @@
       },
       {
         "date": "2026-07-03",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-07-04",
@@ -509,6 +457,58 @@
       },
       {
         "date": "2026-07-05",
+        "count": 2
+      },
+      {
+        "date": "2026-07-06",
+        "count": 1
+      },
+      {
+        "date": "2026-07-07",
+        "count": 5
+      },
+      {
+        "date": "2026-07-08",
+        "count": 1
+      },
+      {
+        "date": "2026-07-09",
+        "count": 4
+      },
+      {
+        "date": "2026-07-10",
+        "count": 7
+      },
+      {
+        "date": "2026-07-11",
+        "count": 4
+      },
+      {
+        "date": "2026-07-12",
+        "count": 8
+      },
+      {
+        "date": "2026-07-13",
+        "count": 3
+      },
+      {
+        "date": "2026-07-14",
+        "count": 1
+      },
+      {
+        "date": "2026-07-15",
+        "count": 0
+      },
+      {
+        "date": "2026-07-16",
+        "count": 0
+      },
+      {
+        "date": "2026-07-17",
+        "count": 4
+      },
+      {
+        "date": "2026-07-18",
         "count": 0
       }
     ]
@@ -516,11 +516,11 @@
   "languages": [
     {
       "name": "HTML",
-      "repos": 30
+      "repos": 32
     },
     {
       "name": "JavaScript",
-      "repos": 13
+      "repos": 15
     },
     {
       "name": "PHP",
@@ -567,42 +567,42 @@
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-07-05T02:39:40Z",
+        "pushed_at": "2026-07-18T07:41:20Z",
+        "description": ""
+      },
+      {
+        "name": "Gsap-Animation",
+        "url": "https://github.com/charlespura/Gsap-Animation",
+        "stars": 0,
+        "pushed_at": "2026-07-17T13:36:49Z",
         "description": ""
       },
       {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 0,
-        "pushed_at": "2026-07-04T15:38:29Z",
+        "pushed_at": "2026-07-13T14:06:29Z",
         "description": "Config files for my GitHub profile."
       },
       {
-        "name": "ResumeReviewer",
-        "url": "https://github.com/charlespura/ResumeReviewer",
+        "name": "React-Native-Auth-App",
+        "url": "https://github.com/charlespura/React-Native-Auth-App",
         "stars": 0,
-        "pushed_at": "2026-07-02T15:00:26Z",
+        "pushed_at": "2026-07-12T13:13:26Z",
         "description": ""
       },
       {
-        "name": "Kids-Learning-App",
-        "url": "https://github.com/charlespura/Kids-Learning-App",
+        "name": "EvolutionoftheInternet",
+        "url": "https://github.com/charlespura/EvolutionoftheInternet",
         "stars": 0,
-        "pushed_at": "2026-06-30T11:51:15Z",
+        "pushed_at": "2026-07-10T07:46:34Z",
         "description": ""
       },
       {
-        "name": "PetFinderApp",
-        "url": "https://github.com/charlespura/PetFinderApp",
+        "name": "Dev-Journey-Log",
+        "url": "https://github.com/charlespura/Dev-Journey-Log",
         "stars": 0,
-        "pushed_at": "2026-06-30T11:40:11Z",
-        "description": ""
-      },
-      {
-        "name": "QuizApp",
-        "url": "https://github.com/charlespura/QuizApp",
-        "stars": 0,
-        "pushed_at": "2026-06-30T11:31:46Z",
+        "pushed_at": "2026-07-07T09:31:20Z",
         "description": ""
       }
     ],
@@ -610,32 +610,32 @@
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-07-05T02:39:40Z"
+        "pushed_at": "2026-07-18T07:41:20Z"
+      },
+      {
+        "name": "Gsap-Animation",
+        "url": "https://github.com/charlespura/Gsap-Animation",
+        "pushed_at": "2026-07-17T13:36:49Z"
       },
       {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-07-04T15:38:29Z"
+        "pushed_at": "2026-07-13T14:06:29Z"
       },
       {
-        "name": "ResumeReviewer",
-        "url": "https://github.com/charlespura/ResumeReviewer",
-        "pushed_at": "2026-07-02T15:00:26Z"
+        "name": "React-Native-Auth-App",
+        "url": "https://github.com/charlespura/React-Native-Auth-App",
+        "pushed_at": "2026-07-12T13:13:26Z"
       },
       {
-        "name": "Kids-Learning-App",
-        "url": "https://github.com/charlespura/Kids-Learning-App",
-        "pushed_at": "2026-06-30T11:51:15Z"
+        "name": "EvolutionoftheInternet",
+        "url": "https://github.com/charlespura/EvolutionoftheInternet",
+        "pushed_at": "2026-07-10T07:46:34Z"
       },
       {
-        "name": "PetFinderApp",
-        "url": "https://github.com/charlespura/PetFinderApp",
-        "pushed_at": "2026-06-30T11:40:11Z"
-      },
-      {
-        "name": "QuizApp",
-        "url": "https://github.com/charlespura/QuizApp",
-        "pushed_at": "2026-06-30T11:31:46Z"
+        "name": "Dev-Journey-Log",
+        "url": "https://github.com/charlespura/Dev-Journey-Log",
+        "pushed_at": "2026-07-07T09:31:20Z"
       }
     ]
   }
