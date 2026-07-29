@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T08:31:59.659Z",
+  "generated_at": "2026-07-29T13:58:58.372Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -571,6 +571,13 @@
         "description": "Config files for my GitHub profile."
       },
       {
+        "name": "gtihubstats",
+        "url": "https://github.com/charlespura/gtihubstats",
+        "stars": 0,
+        "pushed_at": "2026-07-29T08:32:00Z",
+        "description": ""
+      },
+      {
         "name": "AutoReportingSystem",
         "url": "https://github.com/charlespura/AutoReportingSystem",
         "stars": 0,
@@ -583,13 +590,6 @@
         "stars": 0,
         "pushed_at": "2026-07-29T03:42:01Z",
         "description": "📚 A cross-platform Student Planner app built with React Native (Expo) - fully offline, no login required. Manage classes, assignments, notes, exams, GPA, and attendance all locally on your device."
-      },
-      {
-        "name": "gtihubstats",
-        "url": "https://github.com/charlespura/gtihubstats",
-        "stars": 0,
-        "pushed_at": "2026-07-29T02:08:34Z",
-        "description": ""
       },
       {
         "name": "CLYreviewer",
@@ -608,6 +608,11 @@
     ],
     "recent": [
       {
+        "name": "gtihubstats",
+        "url": "https://github.com/charlespura/gtihubstats",
+        "pushed_at": "2026-07-29T08:32:00Z"
+      },
+      {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "pushed_at": "2026-07-29T07:51:01Z"
@@ -621,11 +626,6 @@
         "name": "Student-Planner-ReactNative",
         "url": "https://github.com/charlespura/Student-Planner-ReactNative",
         "pushed_at": "2026-07-29T03:42:01Z"
-      },
-      {
-        "name": "gtihubstats",
-        "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-07-29T02:08:34Z"
       },
       {
         "name": "CLYreviewer",
