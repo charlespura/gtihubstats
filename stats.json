@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-30T01:58:00.688Z",
+  "generated_at": "2026-07-30T08:16:33.090Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 81,
+    "repos": 82,
     "followers": 23,
     "following": 3
   },
@@ -15,25 +15,25 @@
     "to": "2026-07-30"
   },
   "contributions": {
-    "total": 1656
+    "total": 1669
   },
   "streaks": {
     "current": {
-      "days": 137,
+      "days": 138,
       "from": "2026-03-15",
-      "to": "2026-07-29"
+      "to": "2026-07-30"
     },
     "longest": {
-      "days": 137,
+      "days": 138,
       "from": "2026-03-15",
-      "to": "2026-07-29"
+      "to": "2026-07-30"
     }
   },
   "milestones": {
-    "current": 137,
+    "current": 138,
     "next": 180,
     "previous": 100,
-    "progress": 0.4625,
+    "progress": 0.475,
     "milestones": [
       7,
       14,
@@ -509,7 +509,7 @@
       },
       {
         "date": "2026-07-30",
-        "count": 0
+        "count": 13
       }
     ]
   },
@@ -524,7 +524,7 @@
     },
     {
       "name": "PHP",
-      "repos": 7
+      "repos": 8
     },
     {
       "name": "Java",
@@ -571,10 +571,17 @@
         "description": "Config files for my GitHub profile."
       },
       {
+        "name": "Dynamic-Module-Management-System",
+        "url": "https://github.com/charlespura/Dynamic-Module-Management-System",
+        "stars": 0,
+        "pushed_at": "2026-07-30T07:04:49Z",
+        "description": "Dynamic Module Management System is a powerful enterprise application built with Laravel 7 and Vue 2 that allows you to create, manage, and control modules dynamically without writing code. Features include dynamic sidebar generation, role-based permissions, user management, unlimited nested menus, and RESTful API architecture for scalable business"
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-07-29T19:06:51Z",
+        "pushed_at": "2026-07-30T01:58:01Z",
         "description": ""
       },
       {
@@ -597,20 +604,18 @@
         "stars": 0,
         "pushed_at": "2026-07-20T16:19:59Z",
         "description": ""
-      },
-      {
-        "name": "Expense-Tracker-Management-System-JAVA",
-        "url": "https://github.com/charlespura/Expense-Tracker-Management-System-JAVA",
-        "stars": 0,
-        "pushed_at": "2026-07-18T14:56:01Z",
-        "description": ""
       }
     ],
     "recent": [
       {
+        "name": "Dynamic-Module-Management-System",
+        "url": "https://github.com/charlespura/Dynamic-Module-Management-System",
+        "pushed_at": "2026-07-30T07:04:49Z"
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-07-29T19:06:51Z"
+        "pushed_at": "2026-07-30T01:58:01Z"
       },
       {
         "name": "charlespura",
@@ -631,11 +636,6 @@
         "name": "CLYreviewer",
         "url": "https://github.com/charlespura/CLYreviewer",
         "pushed_at": "2026-07-20T16:19:59Z"
-      },
-      {
-        "name": "Expense-Tracker-Management-System-JAVA",
-        "url": "https://github.com/charlespura/Expense-Tracker-Management-System-JAVA",
-        "pushed_at": "2026-07-18T14:56:01Z"
       }
     ]
   }
