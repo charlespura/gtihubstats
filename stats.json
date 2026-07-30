@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T08:16:33.090Z",
+  "generated_at": "2026-07-30T13:47:50.667Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -571,18 +571,18 @@
         "description": "Config files for my GitHub profile."
       },
       {
+        "name": "gtihubstats",
+        "url": "https://github.com/charlespura/gtihubstats",
+        "stars": 0,
+        "pushed_at": "2026-07-30T08:16:33Z",
+        "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
+      },
+      {
         "name": "Dynamic-Module-Management-System",
         "url": "https://github.com/charlespura/Dynamic-Module-Management-System",
         "stars": 0,
         "pushed_at": "2026-07-30T07:04:49Z",
         "description": "Dynamic Module Management System is a powerful enterprise application built with Laravel 7 and Vue 2 that allows you to create, manage, and control modules dynamically without writing code. Features include dynamic sidebar generation, role-based permissions, user management, unlimited nested menus, and RESTful API architecture for scalable business"
-      },
-      {
-        "name": "gtihubstats",
-        "url": "https://github.com/charlespura/gtihubstats",
-        "stars": 0,
-        "pushed_at": "2026-07-30T01:58:01Z",
-        "description": ""
       },
       {
         "name": "AutoReportingSystem",
@@ -608,14 +608,14 @@
     ],
     "recent": [
       {
+        "name": "gtihubstats",
+        "url": "https://github.com/charlespura/gtihubstats",
+        "pushed_at": "2026-07-30T08:16:33Z"
+      },
+      {
         "name": "Dynamic-Module-Management-System",
         "url": "https://github.com/charlespura/Dynamic-Module-Management-System",
         "pushed_at": "2026-07-30T07:04:49Z"
-      },
-      {
-        "name": "gtihubstats",
-        "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-07-30T01:58:01Z"
       },
       {
         "name": "charlespura",
