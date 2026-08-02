@@ -3,7 +3,7 @@ name: Update GitHub stats (JSON + SVG)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *" # every 6 hours
+    - cron: "0 0 * * *" # every 24 hours
 
 permissions:
   contents: write
