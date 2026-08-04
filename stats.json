@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-08-03T01:20:10.382Z",
+  "generated_at": "2026-08-04T01:11:56.067Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 83,
+    "repos": 84,
     "followers": 23,
     "following": 3
   },
   "range": {
     "from": "2025-08-03",
-    "to": "2026-08-03"
+    "to": "2026-08-04"
   },
   "contributions": {
-    "total": 1711
+    "total": 1723
   },
   "streaks": {
     "current": {
-      "days": 141,
+      "days": 142,
       "from": "2026-03-15",
-      "to": "2026-08-02"
+      "to": "2026-08-03"
     },
     "longest": {
-      "days": 141,
+      "days": 142,
       "from": "2026-03-15",
-      "to": "2026-08-02"
+      "to": "2026-08-03"
     }
   },
   "milestones": {
-    "current": 141,
+    "current": 142,
     "next": 180,
     "previous": 100,
-    "progress": 0.5125,
+    "progress": 0.525,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 23,
     "days": [
-      {
-        "date": "2026-04-14",
-        "count": 3
-      },
       {
         "date": "2026-04-15",
         "count": 1
@@ -509,6 +505,10 @@
       },
       {
         "date": "2026-08-03",
+        "count": 12
+      },
+      {
+        "date": "2026-08-04",
         "count": 0
       }
     ]
@@ -520,7 +520,7 @@
     },
     {
       "name": "JavaScript",
-      "repos": 17
+      "repos": 18
     },
     {
       "name": "PHP",
@@ -567,8 +567,22 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-07-31T10:24:37Z",
+        "pushed_at": "2026-08-03T11:07:11Z",
         "description": "Config files for my GitHub profile."
+      },
+      {
+        "name": "Senior-Alarm-Clock-App",
+        "url": "https://github.com/charlespura/Senior-Alarm-Clock-App",
+        "stars": 0,
+        "pushed_at": "2026-08-03T07:37:09Z",
+        "description": "A senior-friendly React Native medication reminder and alarm clock with large text, visual alerts, weekly scheduling, and an animated companion."
+      },
+      {
+        "name": "gtihubstats",
+        "url": "https://github.com/charlespura/gtihubstats",
+        "stars": 0,
+        "pushed_at": "2026-08-03T01:20:11Z",
+        "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
         "name": "zoo-plant",
@@ -576,13 +590,6 @@
         "stars": 0,
         "pushed_at": "2026-08-02T14:44:10Z",
         "description": "An interactive web platform to explore, learn, and discover the fascinating world of plants and animals. Built with PHP, MySQL, and modern web technologies."
-      },
-      {
-        "name": "gtihubstats",
-        "url": "https://github.com/charlespura/gtihubstats",
-        "stars": 0,
-        "pushed_at": "2026-08-02T13:33:59Z",
-        "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
         "name": "Dynamic-Module-Management-System",
@@ -597,25 +604,28 @@
         "stars": 0,
         "pushed_at": "2026-07-31T08:44:23Z",
         "description": "Auto Reporting System - Enterprise-grade automation with Laravel 7, Vue 2 & Bulma. Generate Excel/PDF reports from MySQL, PostgreSQL, SQL Server. Schedule daily/weekly/monthly reports, email delivery, auto-cleanup, audit logs, dashboard analytics, & Docker support."
-      },
-      {
-        "name": "Student-Planner-ReactNative",
-        "url": "https://github.com/charlespura/Student-Planner-ReactNative",
-        "stars": 0,
-        "pushed_at": "2026-07-29T03:42:01Z",
-        "description": "📚 A cross-platform Student Planner app built with React Native (Expo) - fully offline, no login required. Manage classes, assignments, notes, exams, GPA, and attendance all locally on your device."
       }
     ],
     "recent": [
       {
-        "name": "zoo-plant",
-        "url": "https://github.com/charlespura/zoo-plant",
-        "pushed_at": "2026-08-02T14:44:10Z"
+        "name": "charlespura",
+        "url": "https://github.com/charlespura/charlespura",
+        "pushed_at": "2026-08-03T11:07:11Z"
+      },
+      {
+        "name": "Senior-Alarm-Clock-App",
+        "url": "https://github.com/charlespura/Senior-Alarm-Clock-App",
+        "pushed_at": "2026-08-03T07:37:09Z"
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-08-02T13:33:59Z"
+        "pushed_at": "2026-08-03T01:20:11Z"
+      },
+      {
+        "name": "zoo-plant",
+        "url": "https://github.com/charlespura/zoo-plant",
+        "pushed_at": "2026-08-02T14:44:10Z"
       },
       {
         "name": "Dynamic-Module-Management-System",
@@ -623,19 +633,9 @@
         "pushed_at": "2026-07-31T10:38:02Z"
       },
       {
-        "name": "charlespura",
-        "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-07-31T10:24:37Z"
-      },
-      {
         "name": "AutoReportingSystem",
         "url": "https://github.com/charlespura/AutoReportingSystem",
         "pushed_at": "2026-07-31T08:44:23Z"
-      },
-      {
-        "name": "Student-Planner-ReactNative",
-        "url": "https://github.com/charlespura/Student-Planner-ReactNative",
-        "pushed_at": "2026-07-29T03:42:01Z"
       }
     ]
   }
