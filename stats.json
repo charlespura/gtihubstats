@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T00:26:15.594Z",
+  "generated_at": "2026-08-18T00:25:25.036Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -12,28 +12,28 @@
   },
   "range": {
     "from": "2025-08-17",
-    "to": "2026-08-17"
+    "to": "2026-08-18"
   },
   "contributions": {
-    "total": 1872
+    "total": 1876
   },
   "streaks": {
     "current": {
-      "days": 155,
+      "days": 156,
       "from": "2026-03-15",
-      "to": "2026-08-16"
+      "to": "2026-08-17"
     },
     "longest": {
-      "days": 155,
+      "days": 156,
       "from": "2026-03-15",
-      "to": "2026-08-16"
+      "to": "2026-08-17"
     }
   },
   "milestones": {
-    "current": 155,
+    "current": 156,
     "next": 180,
     "previous": 100,
-    "progress": 0.6875,
+    "progress": 0.7,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-04-28",
-        "count": 2
-      },
       {
         "date": "2026-04-29",
         "count": 1
@@ -509,6 +505,10 @@
       },
       {
         "date": "2026-08-17",
+        "count": 4
+      },
+      {
+        "date": "2026-08-18",
         "count": 0
       }
     ]
@@ -567,14 +567,14 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-08-03T11:07:11Z",
+        "pushed_at": "2026-08-17T08:07:13Z",
         "description": "Config files for my GitHub profile."
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-08-16T00:27:13Z",
+        "pushed_at": "2026-08-17T00:26:16Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
@@ -608,19 +608,19 @@
     ],
     "recent": [
       {
+        "name": "charlespura",
+        "url": "https://github.com/charlespura/charlespura",
+        "pushed_at": "2026-08-17T08:07:13Z"
+      },
+      {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-08-16T00:27:13Z"
+        "pushed_at": "2026-08-17T00:26:16Z"
       },
       {
         "name": "FocusForge",
         "url": "https://github.com/charlespura/FocusForge",
         "pushed_at": "2026-08-10T01:20:58Z"
-      },
-      {
-        "name": "charlespura",
-        "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-08-03T11:07:11Z"
       },
       {
         "name": "Senior-Alarm-Clock-App",
