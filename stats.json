@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T01:50:50.804Z",
+  "generated_at": "2026-10-26T01:52:24.515Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -12,28 +12,28 @@
   },
   "range": {
     "from": "2025-10-26",
-    "to": "2026-10-25"
+    "to": "2026-10-26"
   },
   "contributions": {
-    "total": 2104
+    "total": 2037
   },
   "streaks": {
     "current": {
-      "days": 224,
+      "days": 225,
       "from": "2026-03-15",
-      "to": "2026-10-24"
+      "to": "2026-10-25"
     },
     "longest": {
-      "days": 224,
+      "days": 225,
       "from": "2026-03-15",
-      "to": "2026-10-24"
+      "to": "2026-10-25"
     }
   },
   "milestones": {
-    "current": 224,
+    "current": 225,
     "next": 365,
     "previous": 180,
-    "progress": 0.23783783783783785,
+    "progress": 0.24324324324324326,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-07-06",
-        "count": 1
-      },
       {
         "date": "2026-07-07",
         "count": 5
@@ -509,6 +505,10 @@
       },
       {
         "date": "2026-10-25",
+        "count": 1
+      },
+      {
+        "date": "2026-10-26",
         "count": 0
       }
     ]
@@ -574,7 +574,7 @@
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 0,
-        "pushed_at": "2026-10-24T02:03:23Z",
+        "pushed_at": "2026-10-25T01:50:51Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
@@ -610,7 +610,7 @@
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-10-24T02:03:23Z"
+        "pushed_at": "2026-10-25T01:50:51Z"
       },
       {
         "name": "higgsfieldai",
