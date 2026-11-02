@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T02:42:35.159Z",
+  "generated_at": "2026-11-02T02:50:51.406Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -7,33 +7,33 @@
     "login": "charlespura",
     "name": "Charles Pura",
     "repos": 88,
-    "followers": 23,
+    "followers": 24,
     "following": 3
   },
   "range": {
     "from": "2025-11-02",
-    "to": "2026-11-01"
+    "to": "2026-11-02"
   },
   "contributions": {
-    "total": 2056
+    "total": 2063
   },
   "streaks": {
     "current": {
-      "days": 231,
+      "days": 233,
       "from": "2026-03-15",
-      "to": "2026-10-31"
+      "to": "2026-11-02"
     },
     "longest": {
-      "days": 231,
+      "days": 233,
       "from": "2026-03-15",
-      "to": "2026-10-31"
+      "to": "2026-11-02"
     }
   },
   "milestones": {
-    "current": 231,
+    "current": 233,
     "next": 365,
     "previous": 180,
-    "progress": 0.2756756756756757,
+    "progress": 0.2864864864864865,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-07-13",
-        "count": 3
-      },
       {
         "date": "2026-07-14",
         "count": 1
@@ -509,7 +505,11 @@
       },
       {
         "date": "2026-11-01",
-        "count": 0
+        "count": 6
+      },
+      {
+        "date": "2026-11-02",
+        "count": 2
       }
     ]
   },
@@ -567,14 +567,14 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-10-31T09:46:07Z",
+        "pushed_at": "2026-11-01T10:37:02Z",
         "description": "Config files for my GitHub profile."
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "stars": 0,
-        "pushed_at": "2026-10-31T02:49:52Z",
+        "stars": 1,
+        "pushed_at": "2026-11-01T02:42:36Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
@@ -610,12 +610,12 @@
       {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-10-31T09:46:07Z"
+        "pushed_at": "2026-11-01T10:37:02Z"
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-10-31T02:49:52Z"
+        "pushed_at": "2026-11-01T02:42:36Z"
       },
       {
         "name": "higgsfieldai",
