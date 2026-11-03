@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T02:50:51.406Z",
+  "generated_at": "2026-11-03T04:07:52.945Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -8,14 +8,14 @@
     "name": "Charles Pura",
     "repos": 88,
     "followers": 24,
-    "following": 3
+    "following": 4
   },
   "range": {
     "from": "2025-11-02",
-    "to": "2026-11-02"
+    "to": "2026-11-03"
   },
   "contributions": {
-    "total": 2063
+    "total": 2066
   },
   "streaks": {
     "current": {
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-07-14",
-        "count": 1
-      },
       {
         "date": "2026-07-15",
         "count": 1
@@ -509,7 +505,11 @@
       },
       {
         "date": "2026-11-02",
-        "count": 2
+        "count": 5
+      },
+      {
+        "date": "2026-11-03",
+        "count": 0
       }
     ]
   },
@@ -567,14 +567,14 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-11-01T10:37:02Z",
+        "pushed_at": "2026-11-02T11:23:14Z",
         "description": "Config files for my GitHub profile."
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 1,
-        "pushed_at": "2026-11-01T02:42:36Z",
+        "pushed_at": "2026-11-02T02:50:52Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
@@ -610,12 +610,12 @@
       {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-11-01T10:37:02Z"
+        "pushed_at": "2026-11-02T11:23:14Z"
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-11-01T02:42:36Z"
+        "pushed_at": "2026-11-02T02:50:52Z"
       },
       {
         "name": "higgsfieldai",
