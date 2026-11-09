@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-11-08T02:48:23.938Z",
+  "generated_at": "2026-11-09T03:06:38.248Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 88,
+    "repos": 89,
     "followers": 28,
     "following": 4
   },
   "range": {
     "from": "2025-11-09",
-    "to": "2026-11-08"
+    "to": "2026-11-09"
   },
   "contributions": {
-    "total": 2084
+    "total": 2081
   },
   "streaks": {
     "current": {
-      "days": 239,
+      "days": 240,
       "from": "2026-03-15",
-      "to": "2026-11-08"
+      "to": "2026-11-09"
     },
     "longest": {
-      "days": 239,
+      "days": 240,
       "from": "2026-03-15",
-      "to": "2026-11-08"
+      "to": "2026-11-09"
     }
   },
   "milestones": {
-    "current": 239,
+    "current": 240,
     "next": 365,
     "previous": 180,
-    "progress": 0.31891891891891894,
+    "progress": 0.32432432432432434,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-07-20",
-        "count": 1
-      },
       {
         "date": "2026-07-21",
         "count": 5
@@ -509,7 +505,11 @@
       },
       {
         "date": "2026-11-08",
-        "count": 2
+        "count": 6
+      },
+      {
+        "date": "2026-11-09",
+        "count": 1
       }
     ]
   },
@@ -531,12 +531,12 @@
       "repos": 5
     },
     {
-      "name": "Python",
+      "name": "TypeScript",
       "repos": 4
     },
     {
-      "name": "TypeScript",
-      "repos": 3
+      "name": "Python",
+      "repos": 4
     },
     {
       "name": "CSS",
@@ -567,15 +567,22 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-11-07T10:24:03Z",
+        "pushed_at": "2026-11-08T10:31:41Z",
         "description": "Config files for my GitHub profile."
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 1,
-        "pushed_at": "2026-11-07T03:18:51Z",
+        "pushed_at": "2026-11-08T02:48:24Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
+      },
+      {
+        "name": "TwoGetherBooth",
+        "url": "https://github.com/charlespura/TwoGetherBooth",
+        "stars": 0,
+        "pushed_at": "2026-11-09T03:05:28Z",
+        "description": ""
       },
       {
         "name": "higgsfieldai",
@@ -597,25 +604,23 @@
         "stars": 0,
         "pushed_at": "2026-09-29T03:20:29Z",
         "description": "React & Firebase Linktree-style app with cloud sync, password protection, and customizable social profile pages."
-      },
-      {
-        "name": "CLYreviewer",
-        "url": "https://github.com/charlespura/CLYreviewer",
-        "stars": 0,
-        "pushed_at": "2026-09-06T14:53:20Z",
-        "description": ""
       }
     ],
     "recent": [
       {
+        "name": "TwoGetherBooth",
+        "url": "https://github.com/charlespura/TwoGetherBooth",
+        "pushed_at": "2026-11-09T03:05:28Z"
+      },
+      {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-11-07T10:24:03Z"
+        "pushed_at": "2026-11-08T10:31:41Z"
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-11-07T03:18:51Z"
+        "pushed_at": "2026-11-08T02:48:24Z"
       },
       {
         "name": "higgsfieldai",
@@ -631,11 +636,6 @@
         "name": "MySocialLink",
         "url": "https://github.com/charlespura/MySocialLink",
         "pushed_at": "2026-09-29T03:20:29Z"
-      },
-      {
-        "name": "CLYreviewer",
-        "url": "https://github.com/charlespura/CLYreviewer",
-        "pushed_at": "2026-09-06T14:53:20Z"
       }
     ]
   }
