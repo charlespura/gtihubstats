@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T03:06:38.248Z",
+  "generated_at": "2026-11-10T04:50:15.036Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -7,15 +7,15 @@
     "login": "charlespura",
     "name": "Charles Pura",
     "repos": 89,
-    "followers": 28,
+    "followers": 29,
     "following": 4
   },
   "range": {
     "from": "2025-11-09",
-    "to": "2026-11-09"
+    "to": "2026-11-10"
   },
   "contributions": {
-    "total": 2081
+    "total": 2086
   },
   "streaks": {
     "current": {
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-07-21",
-        "count": 5
-      },
       {
         "date": "2026-07-22",
         "count": 1
@@ -509,18 +505,26 @@
       },
       {
         "date": "2026-11-09",
-        "count": 1
+        "count": 6
+      },
+      {
+        "date": "2026-11-10",
+        "count": 0
       }
     ]
   },
   "languages": [
     {
       "name": "HTML",
-      "repos": 34
+      "repos": 26
     },
     {
       "name": "JavaScript",
       "repos": 20
+    },
+    {
+      "name": "TypeScript",
+      "repos": 10
     },
     {
       "name": "PHP",
@@ -531,19 +535,15 @@
       "repos": 5
     },
     {
-      "name": "TypeScript",
-      "repos": 4
-    },
-    {
       "name": "Python",
       "repos": 4
     },
     {
       "name": "CSS",
-      "repos": 3
+      "repos": 4
     },
     {
-      "name": "Blade",
+      "name": "Vue",
       "repos": 2
     }
   ],
@@ -567,75 +567,75 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-11-08T10:31:41Z",
+        "pushed_at": "2026-11-09T11:46:03Z",
         "description": "Config files for my GitHub profile."
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 1,
-        "pushed_at": "2026-11-08T02:48:24Z",
+        "pushed_at": "2026-11-09T03:06:39Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
-        "name": "TwoGetherBooth",
-        "url": "https://github.com/charlespura/TwoGetherBooth",
+        "name": "DOG-GUIDE",
+        "url": "https://github.com/charlespura/DOG-GUIDE",
         "stars": 0,
-        "pushed_at": "2026-11-09T03:05:28Z",
+        "pushed_at": "2026-11-09T09:34:07Z",
         "description": ""
       },
       {
-        "name": "higgsfieldai",
-        "url": "https://github.com/charlespura/higgsfieldai",
+        "name": "Avengers--Doomsday",
+        "url": "https://github.com/charlespura/Avengers--Doomsday",
         "stars": 0,
-        "pushed_at": "2026-10-23T07:47:09Z",
+        "pushed_at": "2026-11-09T08:46:07Z",
         "description": ""
       },
       {
-        "name": "atiera-hr3-demo",
-        "url": "https://github.com/charlespura/atiera-hr3-demo",
+        "name": "Gsap-Animation",
+        "url": "https://github.com/charlespura/Gsap-Animation",
         "stars": 0,
-        "pushed_at": "2026-10-17T08:25:35Z",
-        "description": ""
+        "pushed_at": "2026-11-09T08:14:18Z",
+        "description": "🚀 A GSAP-powered scroll storytelling experience showcasing the evolution of the internet through six eras with rocket morphing, smooth animations, and interactive effects."
       },
       {
-        "name": "MySocialLink",
-        "url": "https://github.com/charlespura/MySocialLink",
+        "name": "CLYreviewer",
+        "url": "https://github.com/charlespura/CLYreviewer",
         "stars": 0,
-        "pushed_at": "2026-09-29T03:20:29Z",
-        "description": "React & Firebase Linktree-style app with cloud sync, password protection, and customizable social profile pages."
+        "pushed_at": "2026-11-09T07:46:22Z",
+        "description": ""
       }
     ],
     "recent": [
       {
-        "name": "TwoGetherBooth",
-        "url": "https://github.com/charlespura/TwoGetherBooth",
-        "pushed_at": "2026-11-09T03:05:28Z"
-      },
-      {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-11-08T10:31:41Z"
+        "pushed_at": "2026-11-09T11:46:03Z"
       },
       {
-        "name": "gtihubstats",
-        "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-11-08T02:48:24Z"
+        "name": "DOG-GUIDE",
+        "url": "https://github.com/charlespura/DOG-GUIDE",
+        "pushed_at": "2026-11-09T09:34:07Z"
       },
       {
-        "name": "higgsfieldai",
-        "url": "https://github.com/charlespura/higgsfieldai",
-        "pushed_at": "2026-10-23T07:47:09Z"
+        "name": "Avengers--Doomsday",
+        "url": "https://github.com/charlespura/Avengers--Doomsday",
+        "pushed_at": "2026-11-09T08:46:07Z"
       },
       {
-        "name": "atiera-hr3-demo",
-        "url": "https://github.com/charlespura/atiera-hr3-demo",
-        "pushed_at": "2026-10-17T08:25:35Z"
+        "name": "Gsap-Animation",
+        "url": "https://github.com/charlespura/Gsap-Animation",
+        "pushed_at": "2026-11-09T08:14:18Z"
       },
       {
-        "name": "MySocialLink",
-        "url": "https://github.com/charlespura/MySocialLink",
-        "pushed_at": "2026-09-29T03:20:29Z"
+        "name": "CLYreviewer",
+        "url": "https://github.com/charlespura/CLYreviewer",
+        "pushed_at": "2026-11-09T07:46:22Z"
+      },
+      {
+        "name": "Dev-Journey-Log",
+        "url": "https://github.com/charlespura/Dev-Journey-Log",
+        "pushed_at": "2026-11-09T06:54:15Z"
       }
     ]
   }
