@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:50:15.036Z",
+  "generated_at": "2026-11-11T03:14:32.557Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -12,28 +12,28 @@
   },
   "range": {
     "from": "2025-11-09",
-    "to": "2026-11-10"
+    "to": "2026-11-11"
   },
   "contributions": {
-    "total": 2086
+    "total": 2090
   },
   "streaks": {
     "current": {
-      "days": 240,
+      "days": 241,
       "from": "2026-03-15",
-      "to": "2026-11-09"
+      "to": "2026-11-10"
     },
     "longest": {
-      "days": 240,
+      "days": 241,
       "from": "2026-03-15",
-      "to": "2026-11-09"
+      "to": "2026-11-10"
     }
   },
   "milestones": {
-    "current": 240,
+    "current": 241,
     "next": 365,
     "previous": 180,
-    "progress": 0.32432432432432434,
+    "progress": 0.32972972972972975,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-07-22",
-        "count": 1
-      },
       {
         "date": "2026-07-23",
         "count": 1
@@ -509,6 +505,10 @@
       },
       {
         "date": "2026-11-10",
+        "count": 4
+      },
+      {
+        "date": "2026-11-11",
         "count": 0
       }
     ]
@@ -516,7 +516,7 @@
   "languages": [
     {
       "name": "HTML",
-      "repos": 26
+      "repos": 24
     },
     {
       "name": "JavaScript",
@@ -524,7 +524,7 @@
     },
     {
       "name": "TypeScript",
-      "repos": 10
+      "repos": 12
     },
     {
       "name": "PHP",
@@ -567,15 +567,29 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-11-09T11:46:03Z",
+        "pushed_at": "2026-11-10T11:22:58Z",
         "description": "Config files for my GitHub profile."
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 1,
-        "pushed_at": "2026-11-09T03:06:39Z",
+        "pushed_at": "2026-11-10T04:50:16Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
+      },
+      {
+        "name": "BookingWithFireStore",
+        "url": "https://github.com/charlespura/BookingWithFireStore",
+        "stars": 0,
+        "pushed_at": "2026-11-10T06:22:25Z",
+        "description": ""
+      },
+      {
+        "name": "CHICKENALAKINGNIBOSSIVAN",
+        "url": "https://github.com/charlespura/CHICKENALAKINGNIBOSSIVAN",
+        "stars": 0,
+        "pushed_at": "2026-11-10T05:42:42Z",
+        "description": "Online Food Ordering Web App – Add products, sauces, and calculate total with real-time order summary. Includes geolocation for delivery address."
       },
       {
         "name": "DOG-GUIDE",
@@ -590,27 +604,28 @@
         "stars": 0,
         "pushed_at": "2026-11-09T08:46:07Z",
         "description": ""
-      },
-      {
-        "name": "Gsap-Animation",
-        "url": "https://github.com/charlespura/Gsap-Animation",
-        "stars": 0,
-        "pushed_at": "2026-11-09T08:14:18Z",
-        "description": "🚀 A GSAP-powered scroll storytelling experience showcasing the evolution of the internet through six eras with rocket morphing, smooth animations, and interactive effects."
-      },
-      {
-        "name": "CLYreviewer",
-        "url": "https://github.com/charlespura/CLYreviewer",
-        "stars": 0,
-        "pushed_at": "2026-11-09T07:46:22Z",
-        "description": ""
       }
     ],
     "recent": [
       {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-11-09T11:46:03Z"
+        "pushed_at": "2026-11-10T11:22:58Z"
+      },
+      {
+        "name": "BookingWithFireStore",
+        "url": "https://github.com/charlespura/BookingWithFireStore",
+        "pushed_at": "2026-11-10T06:22:25Z"
+      },
+      {
+        "name": "CHICKENALAKINGNIBOSSIVAN",
+        "url": "https://github.com/charlespura/CHICKENALAKINGNIBOSSIVAN",
+        "pushed_at": "2026-11-10T05:42:42Z"
+      },
+      {
+        "name": "gtihubstats",
+        "url": "https://github.com/charlespura/gtihubstats",
+        "pushed_at": "2026-11-10T04:50:16Z"
       },
       {
         "name": "DOG-GUIDE",
@@ -621,21 +636,6 @@
         "name": "Avengers--Doomsday",
         "url": "https://github.com/charlespura/Avengers--Doomsday",
         "pushed_at": "2026-11-09T08:46:07Z"
-      },
-      {
-        "name": "Gsap-Animation",
-        "url": "https://github.com/charlespura/Gsap-Animation",
-        "pushed_at": "2026-11-09T08:14:18Z"
-      },
-      {
-        "name": "CLYreviewer",
-        "url": "https://github.com/charlespura/CLYreviewer",
-        "pushed_at": "2026-11-09T07:46:22Z"
-      },
-      {
-        "name": "Dev-Journey-Log",
-        "url": "https://github.com/charlespura/Dev-Journey-Log",
-        "pushed_at": "2026-11-09T06:54:15Z"
       }
     ]
   }
