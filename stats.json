@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-11-12T04:26:16.926Z",
+  "generated_at": "2026-11-13T03:41:26.067Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
   "user": {
     "login": "charlespura",
     "name": "Charles Pura",
-    "repos": 89,
+    "repos": 91,
     "followers": 29,
     "following": 4
   },
   "range": {
     "from": "2025-11-09",
-    "to": "2026-11-12"
+    "to": "2026-11-13"
   },
   "contributions": {
-    "total": 2091
+    "total": 2095
   },
   "streaks": {
     "current": {
-      "days": 242,
+      "days": 244,
       "from": "2026-03-15",
-      "to": "2026-11-11"
+      "to": "2026-11-13"
     },
     "longest": {
-      "days": 242,
+      "days": 244,
       "from": "2026-03-15",
-      "to": "2026-11-11"
+      "to": "2026-11-13"
     }
   },
   "milestones": {
-    "current": 242,
+    "current": 244,
     "next": 365,
     "previous": 180,
-    "progress": 0.33513513513513515,
+    "progress": 0.34594594594594597,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-07-24",
-        "count": 2
-      },
       {
         "date": "2026-07-25",
         "count": 10
@@ -509,22 +505,26 @@
       },
       {
         "date": "2026-11-12",
-        "count": 0
+        "count": 2
+      },
+      {
+        "date": "2026-11-13",
+        "count": 2
       }
     ]
   },
   "languages": [
     {
-      "name": "HTML",
-      "repos": 23
-    },
-    {
       "name": "JavaScript",
       "repos": 20
     },
     {
+      "name": "HTML",
+      "repos": 20
+    },
+    {
       "name": "TypeScript",
-      "repos": 13
+      "repos": 16
     },
     {
       "name": "PHP",
@@ -550,6 +550,13 @@
   "repos": {
     "top": [
       {
+        "name": "Creative-Button-Hover-Effects",
+        "url": "https://github.com/charlespura/Creative-Button-Hover-Effects",
+        "stars": 2,
+        "pushed_at": "2026-11-12T05:54:14Z",
+        "description": ""
+      },
+      {
         "name": "Sampledec15",
         "url": "https://github.com/charlespura/Sampledec15",
         "stars": 2,
@@ -557,85 +564,78 @@
         "description": ""
       },
       {
-        "name": "Creative-Button-Hover-Effects",
-        "url": "https://github.com/charlespura/Creative-Button-Hover-Effects",
-        "stars": 2,
-        "pushed_at": "2025-12-12T10:41:30Z",
-        "description": ""
-      },
-      {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-11-11T11:09:33Z",
+        "pushed_at": "2026-11-12T11:27:48Z",
         "description": "Config files for my GitHub profile."
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 1,
-        "pushed_at": "2026-11-11T03:14:33Z",
+        "pushed_at": "2026-11-12T04:26:17Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
-        "name": "DotMatrixAnimator",
-        "url": "https://github.com/charlespura/DotMatrixAnimator",
+        "name": "ClipFlow",
+        "url": "https://github.com/charlespura/ClipFlow",
         "stars": 0,
-        "pushed_at": "2026-11-11T10:12:05Z",
+        "pushed_at": "2026-11-13T00:05:23Z",
         "description": ""
       },
       {
-        "name": "BookingWithFireStore",
-        "url": "https://github.com/charlespura/BookingWithFireStore",
+        "name": "TapCPeso",
+        "url": "https://github.com/charlespura/TapCPeso",
         "stars": 0,
-        "pushed_at": "2026-11-10T06:22:25Z",
+        "pushed_at": "2026-11-12T07:47:54Z",
         "description": ""
       },
       {
-        "name": "CHICKENALAKINGNIBOSSIVAN",
-        "url": "https://github.com/charlespura/CHICKENALAKINGNIBOSSIVAN",
+        "name": "Quiz",
+        "url": "https://github.com/charlespura/Quiz",
         "stars": 0,
-        "pushed_at": "2026-11-10T05:42:42Z",
-        "description": "Online Food Ordering Web App – Add products, sauces, and calculate total with real-time order summary. Includes geolocation for delivery address."
+        "pushed_at": "2026-11-12T06:11:12Z",
+        "description": ""
       },
       {
-        "name": "DOG-GUIDE",
-        "url": "https://github.com/charlespura/DOG-GUIDE",
+        "name": "Date-planner-HTML-CSS-JAVASCRIPT",
+        "url": "https://github.com/charlespura/Date-planner-HTML-CSS-JAVASCRIPT",
         "stars": 0,
-        "pushed_at": "2026-11-09T09:34:07Z",
+        "pushed_at": "2026-11-12T05:29:01Z",
         "description": ""
       }
     ],
     "recent": [
       {
+        "name": "ClipFlow",
+        "url": "https://github.com/charlespura/ClipFlow",
+        "pushed_at": "2026-11-13T00:05:23Z"
+      },
+      {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-11-11T11:09:33Z"
+        "pushed_at": "2026-11-12T11:27:48Z"
       },
       {
-        "name": "DotMatrixAnimator",
-        "url": "https://github.com/charlespura/DotMatrixAnimator",
-        "pushed_at": "2026-11-11T10:12:05Z"
+        "name": "TapCPeso",
+        "url": "https://github.com/charlespura/TapCPeso",
+        "pushed_at": "2026-11-12T07:47:54Z"
       },
       {
-        "name": "gtihubstats",
-        "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-11-11T03:14:33Z"
+        "name": "Quiz",
+        "url": "https://github.com/charlespura/Quiz",
+        "pushed_at": "2026-11-12T06:11:12Z"
       },
       {
-        "name": "BookingWithFireStore",
-        "url": "https://github.com/charlespura/BookingWithFireStore",
-        "pushed_at": "2026-11-10T06:22:25Z"
+        "name": "Creative-Button-Hover-Effects",
+        "url": "https://github.com/charlespura/Creative-Button-Hover-Effects",
+        "pushed_at": "2026-11-12T05:54:14Z"
       },
       {
-        "name": "CHICKENALAKINGNIBOSSIVAN",
-        "url": "https://github.com/charlespura/CHICKENALAKINGNIBOSSIVAN",
-        "pushed_at": "2026-11-10T05:42:42Z"
-      },
-      {
-        "name": "DOG-GUIDE",
-        "url": "https://github.com/charlespura/DOG-GUIDE",
-        "pushed_at": "2026-11-09T09:34:07Z"
+        "name": "Date-planner-HTML-CSS-JAVASCRIPT",
+        "url": "https://github.com/charlespura/Date-planner-HTML-CSS-JAVASCRIPT",
+        "pushed_at": "2026-11-12T05:29:01Z"
       }
     ]
   }
