@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T03:15:39.677Z",
+  "generated_at": "2026-11-16T03:18:35.607Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -7,33 +7,33 @@
     "login": "charlespura",
     "name": "Charles Pura",
     "repos": 91,
-    "followers": 29,
+    "followers": 28,
     "following": 4
   },
   "range": {
     "from": "2025-11-16",
-    "to": "2026-11-15"
+    "to": "2026-11-16"
   },
   "contributions": {
-    "total": 2104
+    "total": 2105
   },
   "streaks": {
     "current": {
-      "days": 245,
+      "days": 246,
       "from": "2026-03-15",
-      "to": "2026-11-14"
+      "to": "2026-11-15"
     },
     "longest": {
-      "days": 245,
+      "days": 246,
       "from": "2026-03-15",
-      "to": "2026-11-14"
+      "to": "2026-11-15"
     }
   },
   "milestones": {
-    "current": 245,
+    "current": 246,
     "next": 365,
     "previous": 180,
-    "progress": 0.35135135135135137,
+    "progress": 0.3567567567567568,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-07-27",
-        "count": 2
-      },
       {
         "date": "2026-07-28",
         "count": 1
@@ -509,6 +505,10 @@
       },
       {
         "date": "2026-11-15",
+        "count": 1
+      },
+      {
+        "date": "2026-11-16",
         "count": 0
       }
     ]
@@ -567,14 +567,14 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-11-14T10:37:43Z",
+        "pushed_at": "2026-11-15T11:09:29Z",
         "description": "Config files for my GitHub profile."
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 1,
-        "pushed_at": "2026-11-14T03:40:19Z",
+        "pushed_at": "2026-11-15T03:15:40Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
@@ -610,12 +610,12 @@
       {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-11-14T10:37:43Z"
+        "pushed_at": "2026-11-15T11:09:29Z"
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-11-14T03:40:19Z"
+        "pushed_at": "2026-11-15T03:15:40Z"
       },
       {
         "name": "ClipFlow",
