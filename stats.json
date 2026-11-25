@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T07:09:44.873Z",
+  "generated_at": "2026-11-25T05:44:21.229Z",
   "pages": {
     "base_url": "https://charlespura.github.io/gtihubstats"
   },
@@ -12,28 +12,28 @@
   },
   "range": {
     "from": "2025-11-23",
-    "to": "2026-11-24"
+    "to": "2026-11-25"
   },
   "contributions": {
-    "total": 2895
+    "total": 2903
   },
   "streaks": {
     "current": {
-      "days": 255,
+      "days": 256,
       "from": "2026-03-15",
-      "to": "2026-11-24"
+      "to": "2026-11-25"
     },
     "longest": {
-      "days": 255,
+      "days": 256,
       "from": "2026-03-15",
-      "to": "2026-11-24"
+      "to": "2026-11-25"
     }
   },
   "milestones": {
-    "current": 255,
+    "current": 256,
     "next": 365,
     "previous": 180,
-    "progress": 0.40540540540540543,
+    "progress": 0.41081081081081083,
     "milestones": [
       7,
       14,
@@ -63,10 +63,6 @@
     "weeks": 16,
     "max": 45,
     "days": [
-      {
-        "date": "2026-08-05",
-        "count": 13
-      },
       {
         "date": "2026-08-06",
         "count": 15
@@ -509,7 +505,11 @@
       },
       {
         "date": "2026-11-24",
-        "count": 17
+        "count": 21
+      },
+      {
+        "date": "2026-11-25",
+        "count": 4
       }
     ]
   },
@@ -567,14 +567,14 @@
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
         "stars": 1,
-        "pushed_at": "2026-11-23T13:06:42Z",
+        "pushed_at": "2026-11-24T13:54:52Z",
         "description": "Config files for my GitHub profile."
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
         "stars": 1,
-        "pushed_at": "2026-11-23T04:09:31Z",
+        "pushed_at": "2026-11-24T07:09:45Z",
         "description": "Automated GitHub stats generator using GitHub Actions, GitHub API, and GitHub Pages with live SVG dashboards."
       },
       {
@@ -610,12 +610,12 @@
       {
         "name": "charlespura",
         "url": "https://github.com/charlespura/charlespura",
-        "pushed_at": "2026-11-23T13:06:42Z"
+        "pushed_at": "2026-11-24T13:54:52Z"
       },
       {
         "name": "gtihubstats",
         "url": "https://github.com/charlespura/gtihubstats",
-        "pushed_at": "2026-11-23T04:09:31Z"
+        "pushed_at": "2026-11-24T07:09:45Z"
       },
       {
         "name": "CCtvmonitoring",
